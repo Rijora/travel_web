@@ -82,3 +82,19 @@
   width: 100%;
   height: auto;
 }
+
+.header__lang_box li img[src$="flag_pe.svg"] {
+  width: 30px;
+  height: 15px;
+  object-fit: fill;
+}
+
+#google_translate_element,
+.goog-te-banner-frame,
+.goog-te-gadget-icon {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
