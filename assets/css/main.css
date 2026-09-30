@@ -267,12 +267,12 @@ body > .skiptranslate,
 }
 
 a {
-  color: #bd1e2d;
+  color: #027280;
 }
 
 a:hover {
   text-decoration: none;
-  color: #bd1e2d;
+  color: #027280;
 }
 
 a:focus {
@@ -357,7 +357,7 @@ hr {
 }
 
 .main-color {
-  color: #bd1e2d;
+  color: #027280;
 }
 
 @media (max-width: 479px) {
@@ -403,7 +403,7 @@ hr {
 }
 
 .md-btn--primary {
-  background-color: #bd1e2d;
+  background-color: #027280;
   color: #fff;
 }
 
@@ -640,7 +640,7 @@ select2:focus,
 textarea:focus,
 select:focus,
 product__number:not([type="text"]):focus {
-  border-color: #bd1e2d;
+  border-color: #027280;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not(
@@ -883,7 +883,7 @@ abbr {
 
 mark,
 .mark {
-  background-color: #bd1e2d;
+  background-color: #027280;
   color: #fff;
 }
 
@@ -1366,7 +1366,7 @@ ul {
   position: absolute;
   right: 15px;
   top: 10px;
-  color: #bd1e2d;
+  color: #027280;
   font-size: 20px;
 }
 
@@ -1494,11 +1494,11 @@ ul {
 
 .box-share .social-icon:hover {
   background-color: #fff;
-  color: #bd1e2d;
+  color: #027280;
 }
 
 .box-share__socialicon_wrap {
-  background-color: #bd1e2d;
+  background-color: #027280;
 }
 
 /* 10. general_breadcrumb
@@ -1652,7 +1652,7 @@ ul {
 .form-item .select2-selection__arrow b:before {
   content: "\F078";
   font-family: Fontawesome;
-  color: #bd1e2d;
+  color: #027280;
 }
 
 .form-item .select2-selection--single {
@@ -2439,7 +2439,7 @@ ul {
 }
 
 .filter li.current a {
-  color: #bd1e2d;
+  color: #027280;
 }
 
 .filter a {
@@ -2494,7 +2494,7 @@ ul {
 }
 
 .page-title__titlewrap .breadcrumb li a:hover {
-  color: #bd1e2d;
+  color: #027280;
 }
 
 .page-title__title {
@@ -2730,7 +2730,7 @@ ul {
 }
 
 .widget_text__title a:hover {
-  color: #bd1e2d;
+  color: #027280;
 }
 
 /* 23. footer
@@ -2738,10 +2738,10 @@ ul {
 
 .footer {
   position: relative;
-  background-color: #bd1e2d;
+  background-color: #027280;
   color: #fff;
   padding: 40px 0;
-  background: #bd1e2d;
+  background: #027280;
 }
 
 .footer #back-to-top {
@@ -2824,7 +2824,7 @@ ul {
   height: 100%;
   padding: 0 15px;
   background-color: #e3e3e3;
-  color: #bd1e2d;
+  color: #027280;
 }
 
 .footer__backtotop {
@@ -3163,7 +3163,7 @@ ul {
     left: 20px;
     right: 100%;
     height: 2px;
-    background-color: #bd1e2d;
+    background-color: #027280;
     transition: all 0.3s ease;
     opacity: 0;
   }
@@ -3200,7 +3200,7 @@ ul {
   display: block;
   height: 3px;
   width: 100%;
-  background-color: #bd1e2d;
+  background-color: #027280;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -3863,7 +3863,7 @@ ul {
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
-  background-color: #bd1e2d;
+  background-color: #027280;
   vertical-align: middle;
 }
 
@@ -4107,4 +4107,8 @@ ul {
 .swiper-button-custom.style-02 .swiper-button-next-custom {
   position: absolute;
   right: -100px;
+}
+
+.txt_aling_start{
+    text-align: start;
 }
