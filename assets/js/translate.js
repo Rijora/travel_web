@@ -45,7 +45,7 @@
       new google.translate.TranslateElement(
         {
           pageLanguage: 'en',
-          includedLanguages: 'en,es,vi',
+          includedLanguages: 'es,en,pt,fr',
           autoDisplay: false
         },
         'google_translate_element'

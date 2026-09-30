@@ -86,7 +86,7 @@ var simplemaps_countrymap_mapdata={
     },
     KHM1781: {
       name: "Siemréab",
-      color: "#bd1e2d",
+      color: "#027280",
       hover_color: "#a01f2c"
     },
     KHM1782: {

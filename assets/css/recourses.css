@@ -27,7 +27,7 @@
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background-color: #bd1e2d;
+  background-color: #027280;
   color: #fff;
   font-size: 26px;
   cursor: pointer;
@@ -48,7 +48,7 @@
 
 .float-back-to-top:hover,
 .float-back-to-top:focus-visible {
-  background-color: #9f1825;
+  background-color: #043d44;
 }
 
 @media (max-width: 600px) {
