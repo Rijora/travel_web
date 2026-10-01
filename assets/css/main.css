@@ -408,12 +408,12 @@ hr {
 }
 
 .md-btn--primary:hover {
-  background-color: #000;
+  background-color: #035863;
   color: #fff;
 }
 
 .md-btn--primary:focus {
-  background-color: #000;
+  background-color: #035863;
   color: #fff;
 }
 
@@ -2856,7 +2856,7 @@ ul {
 .header.is-scroll {
   top: 0;
   box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.1);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: black;
 }
 
 .header__inner {

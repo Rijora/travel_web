@@ -98,3 +98,350 @@
 body {
   top: 0 !important;
 }
+
+/* Home hero content inspired by the BTC reference layout. */
+.hero__main_slider .hero__box_info--btc {
+  top: 29%;
+  bottom: auto;
+  z-index: 2;
+  color: #fff;
+}
+
+.hero__btc-content {
+  width: 100%;
+}
+
+.hero__btc-intro {
+  width: min(500px, 46vw);
+  margin-left: 20.8%;
+}
+
+.hero__main_slider .hero__box_info--btc .hero__title {
+  max-width: 500px;
+  margin-bottom: 14px;
+  font-size: clamp(40px, 3.65vw, 56px);
+  font-weight: 500;
+  line-height: 0.99;
+}
+
+.hero__main_slider .hero__box_info--btc .hero__info {
+  max-width: 470px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.hero__btc-cta {
+  display: inline-flex;
+  min-width: 265px;
+  min-height: 48px;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+  padding: 0 22px;
+  border-radius: 28px;
+  background: #07859a;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero__btc-cta:hover,
+.hero__btc-cta:focus-visible {
+  background: #006e7c;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.hero__btc-cta .fa-file-text-o {
+  font-size: 20px;
+}
+
+.hero__btc-cta .fa-angle-right {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.hero__btc-sites {
+  display: grid;
+  width: min(820px, 66vw);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 28px 0 0 20.8%;
+  color: #fff;
+}
+
+.hero__btc-sites ul {
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.hero__btc-sites ul:first-child {
+  padding-left: 0;
+}
+
+.hero__btc-sites ul + ul {
+  border-left: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.hero__btc-sites li {
+  display: flex;
+  min-height: 31px;
+  align-items: center;
+  gap: 13px;
+  font-size: 12px;
+  line-height: 1.15;
+}
+
+.hero__btc-sites li i {
+  flex: 0 0 26px;
+  color: #e6c174;
+  font-size: 19px;
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .hero__main_slider .hero__box_info--btc {
+    top: 25%;
+  }
+
+  .hero__btc-intro,
+  .hero__btc-sites {
+    margin-left: 16%;
+  }
+
+  .hero__btc-sites {
+    width: 78%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__main_slider .hero__box_info--btc {
+    top: 24%;
+  }
+
+  .hero__btc-intro {
+    width: 78%;
+    margin-left: 16%;
+  }
+
+  .hero__main_slider .hero__box_info--btc .hero__title {
+    margin-bottom: 10px;
+    font-size: clamp(30px, 8vw, 40px);
+  }
+
+  .hero__main_slider .hero__box_info--btc .hero__info {
+    font-size: 13px;
+  }
+
+  .hero__btc-cta {
+    min-width: 0;
+    min-height: 42px;
+    margin-top: 10px;
+    padding: 0 16px;
+    font-size: 12px;
+  }
+
+  .hero__btc-sites {
+    display: none;
+  }
+}
+
+.partial-circuits {
+  padding: 46px 0 54px;
+  background: #fff;
+}
+
+.partial-circuits__heading {
+  margin-bottom: 18px;
+}
+
+.partial-circuits__heading h2 {
+  margin: 0 0 2px;
+  color: #243d46;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.partial-circuits__heading p {
+  margin: 0;
+  color: #748087;
+  font-size: 14px;
+}
+
+.partial-circuits__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.partial-circuit-card {
+  position: relative;
+  min-width: 0;
+  height: 460px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #163b3d;
+  color: #fff;
+}
+
+.partial-circuit-card::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 27, 31, 0.02) 20%,
+    rgba(3, 27, 31, 0.3) 48%,
+    rgba(3, 27, 31, 0.97) 100%
+  );
+  content: "";
+}
+
+.partial-circuit-card > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.partial-circuit-card:hover > img {
+  transform: scale(1.04);
+}
+
+.partial-circuit-card__content {
+  position: absolute;
+  z-index: 1;
+  right: 22px;
+  bottom: 18px;
+  left: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.partial-circuit-card__accent {
+  width: 45px;
+  height: 4px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  background: #08a3b2;
+}
+
+.partial-circuit-card__content h3 {
+  margin: 0 0 6px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.partial-circuit-card__validity {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin: 0 0 14px;
+  color: #f5f7f7;
+  font-size: 14px;
+}
+
+.partial-circuit-card__validity i {
+  font-size: 16px;
+}
+
+.partial-circuit-card__places {
+  display: flex;
+  min-height: 86px;
+  gap: 12px;
+  padding: 13px 0 11px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  color: #f4f6f6;
+}
+
+.partial-circuit-card__places > i {
+  flex: 0 0 auto;
+  margin-top: 2px;
+  font-size: 19px;
+}
+
+.partial-circuit-card__places p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.partial-circuit-card__places p span {
+  padding: 0 2px;
+}
+
+.partial-circuit-card__link {
+  display: flex;
+  width: 180px;
+  height: 33px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding: 0 13px;
+  border: 2px solid #078fa0;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.partial-circuit-card__link:hover,
+.partial-circuit-card__link:focus-visible {
+  border-color: #08a3b2;
+  background: #078fa0;
+  color: #fff;
+}
+
+.partial-circuit-card__link i {
+  font-size: 12px;
+}
+
+.partial-circuits__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.partial-circuits__footer a {
+  display: inline-flex;
+  min-width: 198px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  border-radius: 26px;
+  background: #07899a;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.partial-circuits__footer a:hover,
+.partial-circuits__footer a:focus-visible {
+  background: #056d7b;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .partial-circuits {
+    padding: 36px 0 42px;
+  }
+
+  .partial-circuits__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .partial-circuit-card {
+    height: 440px;
+  }
+}
