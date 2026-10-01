@@ -99,6 +99,121 @@ body {
   top: 0 !important;
 }
 
+/* Shared patterned banner for the Blog and Contact pages. */
+.brand-page-hero {
+  position: relative;
+  isolation: isolate;
+  background-color: #087c80;
+  background-image: url('../img/f_page/f_page_01.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0 65px;
+  color: #fff;
+  text-align: center;
+}
+
+.brand-page-hero::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 1;
+  transform: none;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    rgba(0, 35, 43, 0.42),
+    rgba(0, 52, 58, 0.24) 52%,
+    rgba(0, 35, 43, 0.4)
+  );
+  content: "";
+}
+
+.brand-page-hero::after {
+  content: none;
+}
+
+.brand-page-hero .blog-hero__texture {
+  display: none;
+}
+
+.brand-page-hero__inner {
+  position: relative;
+  z-index: 0;
+  width: fit-content;
+  max-width: min(900px, calc(100% - 30px));
+  margin: 0 auto;
+  padding: 24px 36px 28px;
+  font-family: "Roboto", sans-serif;
+}
+
+.brand-page-hero__inner::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border: 1px solid rgba(215, 255, 250, 0.22);
+  border-radius: 8px;
+  background: rgba(0, 47, 54, 0.34);
+  box-shadow: 0 14px 38px rgba(0, 29, 35, 0.18);
+  content: "";
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.brand-page-hero h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: #f7ffff;
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(36px, 4.2vw, 48px);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+  text-shadow: 0 2px 14px rgba(0, 28, 35, 0.58);
+}
+
+.brand-page-hero p {
+  position: relative;
+  z-index: 1;
+  margin: 12px 0 0;
+  color: #e4fffc;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-shadow: 0 1px 9px rgba(0, 25, 31, 0.8);
+}
+
+.brand-page-hero .blog-hero__eyebrow {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+  color: #c9efec;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.14em;
+}
+
+@media (max-width: 640px) {
+  .brand-page-hero {
+    min-height: 340px;
+    padding: 92px 0 42px;
+  }
+
+  .brand-page-hero__inner {
+    padding: 22px 18px 24px;
+  }
+
+  .brand-page-hero p {
+    font-size: 15px;
+  }
+}
+
 /* Home hero content inspired by the BTC reference layout. */
 .hero__main_slider .hero__box_info--btc {
   top: 29%;
