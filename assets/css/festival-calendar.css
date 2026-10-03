@@ -1,0 +1,185 @@
+.festival-calendar {
+  padding: 20px 0 42px;
+  background: #f8f9fa;
+}
+
+.festival-calendar > .container {
+  width: calc(100% - 56px);
+  max-width: 1460px;
+}
+
+.festival-calendar .title {
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.festival-calendar .title__title {
+  margin: 0;
+  color: #263746;
+  font-size: clamp(27px, 3.1vw, 39px);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.festival-calendar__subtitle {
+  margin: 7px 0 0;
+  color: #7b8d9e;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.festival-calendar__grid .filter {
+  display: none;
+}
+
+.festival-calendar .grid__inner {
+  margin: -10px;
+}
+
+.festival-calendar .grid-item__content-wrapper {
+  margin: 10px;
+}
+
+.festival-calendar .box-image3 {
+  height: 172px;
+  border-radius: 2px;
+  box-shadow: 0 7px 20px rgba(28, 49, 65, 0.08);
+}
+
+.festival-calendar .box-image3__box {
+  width: 48%;
+  flex: 0 0 48%;
+  height: 172px;
+}
+
+.festival-calendar .box-image3__bg {
+  height: 100%;
+  padding-top: 0;
+  background-position: center;
+}
+
+.festival-calendar .box-image3__box:before {
+  background: rgba(12, 34, 48, 0.08);
+}
+
+.festival-calendar .box-image3__info {
+  top: 10px;
+  left: 12px;
+}
+
+.festival-calendar .box-image3__country {
+  margin: 0;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.festival-calendar .box-image3__date {
+  display: none;
+}
+
+.festival-calendar .box-image3__info_right {
+  display: flex;
+  width: 52%;
+  flex: 1 1 52%;
+  flex-direction: column;
+  padding: 17px 13px 13px 15px;
+}
+
+.festival-calendar .box-image3__tour {
+  margin: 0 0 8px;
+  color: #34495a;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.festival-calendar .box-image3__tour a {
+  color: inherit;
+}
+
+.festival-calendar .box-image3__text {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0;
+  color: #7b8d9e;
+  font-size: 12px;
+  line-height: 1.55;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.festival-calendar .box-image3__view {
+  bottom: 12px;
+  left: 15px;
+  color: #0b9aad;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: none;
+}
+
+.festival-calendar .box-image3__view:before {
+  top: 1px;
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+  line-height: 12px;
+}
+
+.festival-calendar .box-image3__view:hover {
+  color: #087b8b;
+}
+
+@media (max-width: 767px) {
+  .festival-calendar {
+    padding: 24px 0 34px;
+  }
+
+  .festival-calendar > .container {
+    width: calc(100% - 28px);
+  }
+
+  .festival-calendar .title {
+    margin-bottom: 16px;
+  }
+
+  .festival-calendar__subtitle {
+    font-size: 15px;
+  }
+
+  .festival-calendar .box-image3 {
+    height: 162px;
+    flex-direction: row;
+  }
+
+  .festival-calendar .box-image3__box {
+    width: 42%;
+    flex-basis: 42%;
+    height: 162px;
+  }
+
+  .festival-calendar .box-image3__info_right {
+    width: 58%;
+    flex-basis: 58%;
+    padding: 13px 10px 12px;
+  }
+
+  .festival-calendar .box-image3__tour {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .festival-calendar .box-image3__text {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  .festival-calendar .box-image3__view {
+    left: 10px;
+    bottom: 9px;
+    font-size: 11px;
+  }
+}
