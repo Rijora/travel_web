@@ -1,0 +1,326 @@
+{
+  "month": "Enero",
+  "year": "Cada año",
+  "intro": "Vive nuestras tradiciones, recuerda nuestra cultura.",
+  "events": [
+    {
+      "id": "santa-maria-madre-de-dios",
+      "day": "01",
+      "title": "Fiesta solemnidad de Santa María Madre de Dios – Día Mundial de la Paz",
+      "summary": "Una de las celebraciones más importantes del mes, que reúne a fieles de todo el Cusco y provincias, para pedir por la paz y el bienestar.",
+      "location": "Cusco y provincias",
+      "image": "assets/img/image_box_3/enero_01.png",
+      "imageAlt": "Celebración tradicional andina en Cusco",
+      "intro": "La festividad de Santa María Madre de Dios, celebrada cada 1 de enero, es una de las más importantes del calendario cusqueño. Esta fecha también conmemora el Día Mundial de la Paz, un mensaje de esperanza, unión y fraternidad para todos los pueblos.",
+      "sectionTitle": "¿Qué se celebra?",
+      "paragraphs": [
+        "Se rinde homenaje a la Virgen María, madre de Jesús, en su advocación de Madre de Dios, reconociendo su papel como guía espiritual y símbolo de paz. Durante esta festividad, se realizan misas solemnes, procesiones y diversas actividades religiosas y culturales en la ciudad del Cusco y en distintas provincias de la región.",
+        "Además, al coincidir con el Día Mundial de la Paz, se promueve un mensaje de reconciliación, solidaridad y respeto entre todos los pueblos."
+      ],
+      "highlightTitle": "Dato importante",
+      "highlight": "Esta celebración reúne a miles de fieles que participan con devoción y alegría, fortaleciendo nuestras tradiciones y la identidad cusqueña."
+    },
+    {
+      "id": "senor-del-cabildo",
+      "day": "02",
+      "title": "Fiesta del Señor del Cabildo",
+      "summary": "Tradición que se celebra en las parroquias Santa Ana y San Pedro, en la ciudad del Cusco.",
+      "location": "Parroquias Santa Ana y San Pedro, Cusco",
+      "image": "assets/img/hero/2.png",
+      "imageAlt": "Templo histórico de piedra en Cusco",
+      "intro": "La fiesta del Señor del Cabildo forma parte de las celebraciones religiosas cusqueñas del inicio de año. Vecinos y devotos se reúnen en las parroquias de Santa Ana y San Pedro para mantener viva esta tradición.",
+      "sectionTitle": "Una tradición cusqueña",
+      "paragraphs": [
+        "Las actividades religiosas y comunitarias convocan a familias de distintos barrios. La celebración es una oportunidad para compartir la fe y reencontrarse con las costumbres locales.",
+        "Las parroquias de Santa Ana y San Pedro son parte del recorrido por el centro histórico y sus barrios tradicionales."
+      ],
+      "highlightTitle": "Dónde participar",
+      "highlight": "La festividad se celebra en las parroquias Santa Ana y San Pedro, en la ciudad del Cusco."
+    },
+    {
+      "id": "dulce-nombre-de-jesus",
+      "day": "02",
+      "title": "Fiesta del Señor Dulce Nombre de Jesús",
+      "summary": "Se celebra en la parroquia Santa Ana y San Sebastián, además de diversos distritos y provincias del Cusco.",
+      "location": "Parroquia Santa Ana y San Sebastián, Cusco, distritos y provincias",
+      "image": "assets/img/image_box_3/enero_01.png",
+      "imageAlt": "Tradición religiosa y cultural de Cusco",
+      "intro": "El 2 de enero, comunidades de Cusco celebran la fiesta del Señor Dulce Nombre de Jesús con actividades de carácter religioso y cultural.",
+      "sectionTitle": "Fe y comunidad",
+      "paragraphs": [
+        "La celebración convoca a devotos en la parroquia Santa Ana y en San Sebastián. También se vive en distintos distritos y provincias, donde cada comunidad conserva sus propias expresiones y costumbres.",
+        "Es una ocasión para compartir en comunidad y conocer la diversidad de las fiestas tradicionales cusqueñas."
+      ],
+      "highlightTitle": "Celebración local",
+      "highlight": "Las actividades pueden variar según la parroquia y la comunidad que organiza la festividad."
+    },
+    {
+      "id": "santos-reyes-magos",
+      "day": "06",
+      "title": "Adoración de los Santos Reyes Magos",
+      "summary": "En honor a Melchor, Gaspar y Baltazar, con celebraciones en el Cusco, distritos y provincias.",
+      "location": "Cusco, distritos y provincias",
+      "image": "assets/img/image_box_3/enero_01.png",
+      "imageAlt": "Celebración tradicional en los Andes del Cusco",
+      "intro": "Cada 6 de enero, la adoración de los Santos Reyes Magos reúne a familias y comunidades en una de las fechas más queridas de la tradición cristiana.",
+      "sectionTitle": "Una celebración para compartir",
+      "paragraphs": [
+        "En honor a Melchor, Gaspar y Baltazar, se realizan celebraciones religiosas y encuentros comunitarios en la ciudad del Cusco, sus distritos y provincias.",
+        "Las costumbres locales dan un carácter especial a esta fecha y mantienen viva la participación de las familias."
+      ],
+      "highlightTitle": "Fecha de celebración",
+      "highlight": "La festividad se celebra el 6 de enero en distintas localidades de Cusco."
+    },
+    {
+      "id": "senor-de-pampamarca",
+      "day": "14",
+      "title": "Fiesta del Señor de Pampamarca",
+      "summary": "Se celebra en la provincia de Canas, Cusco y otras provincias.",
+      "location": "Provincia de Canas, Cusco y provincias",
+      "image": "assets/img/hero/3.jpeg",
+      "imageAlt": "Paisaje de montañas y andenes en los Andes",
+      "intro": "La fiesta del Señor de Pampamarca se celebra el 14 de enero en la provincia de Canas y convoca a devotos de distintas localidades.",
+      "sectionTitle": "Tradición en Canas",
+      "paragraphs": [
+        "La celebración reúne expresiones de fe y costumbres propias de las comunidades andinas. También participan visitantes de Cusco y de otras provincias.",
+        "Pampamarca ofrece un paisaje altoandino que acompaña esta fecha de encuentro y devoción."
+      ],
+      "highlightTitle": "Ubicación",
+      "highlight": "La festividad tiene como centro la provincia de Canas, en la región Cusco."
+    },
+    {
+      "id": "san-antonio-abad",
+      "day": "17",
+      "title": "Fiesta de San Antonio Abad",
+      "summary": "Una celebración tradicional en la ciudad del Cusco.",
+      "location": "Cusco",
+      "image": "assets/img/image_box_3/enero_01.png",
+      "imageAlt": "Fiesta tradicional con participación de la comunidad cusqueña",
+      "intro": "La ciudad del Cusco celebra a San Antonio Abad cada 17 de enero, en una jornada que forma parte de su calendario tradicional.",
+      "sectionTitle": "Devoción y tradición",
+      "paragraphs": [
+        "La festividad convoca a vecinos y devotos en torno a actividades religiosas y expresiones culturales propias de la ciudad.",
+        "Como en otras fiestas cusqueñas, la participación de la comunidad ayuda a transmitir estas costumbres entre generaciones."
+      ],
+      "highlightTitle": "En la ciudad del Cusco",
+      "highlight": "La celebración se realiza el 17 de enero."
+    },
+    {
+      "id": "virgen-belen-san-sebastian",
+      "day": "20",
+      "title": "Fiesta de Nuestra Señora de Belén y Patrón San Sebastián",
+      "summary": "Celebración patronal del Pera Cha’pchi, con gran devoción en Cusco y distritos.",
+      "location": "Cusco y distritos",
+      "image": "assets/img/image_box_3/enero_01.png",
+      "imageAlt": "Devoción y tradición en una festividad cusqueña",
+      "intro": "El 20 de enero, la fiesta de Nuestra Señora de Belén y del Patrón San Sebastián convoca a sus devotos en Cusco y distintos distritos.",
+      "sectionTitle": "Celebración patronal",
+      "paragraphs": [
+        "La festividad patronal del Pera Cha’pchi se vive con especial devoción y reúne a la comunidad en actividades religiosas y culturales.",
+        "Cada localidad aporta sus propias costumbres a esta fecha significativa del calendario de enero."
+      ],
+      "highlightTitle": "Tradición que reúne",
+      "highlight": "La celebración se comparte en Cusco y sus distritos."
+    }
+  ],
+  "otherMonths": [
+    {
+      "slug": "febrero",
+      "name": "Febrero",
+      "intro": "Conoce las tradiciones cusqueñas de febrero.",
+      "events": [{
+        "id": "febrero-jatun-poqoy-killa",
+        "title": "Jatun Poqoy Killa",
+        "summary": "Fiesta de la siembra: se pide por una buena cosecha y la prosperidad de las familias.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/febrero_02.png",
+        "imageAlt": "Tradición de febrero en Cusco",
+        "intro": "Jatun Poqoy Killa es la celebración tradicional que el calendario de Kuntur Travel destaca para febrero.",
+        "sectionTitle": "Tradición de la siembra",
+        "paragraphs": ["En esta fecha se pide por una buena cosecha y la prosperidad de las familias.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "marzo",
+      "name": "Marzo",
+      "intro": "Celebraciones de renovación y florecimiento en Cusco.",
+      "events": [{
+        "id": "marzo-pauqar-waray-killa",
+        "title": "Pauqar Waray Killa",
+        "summary": "Celebración del florecimiento de la vida y la renovación de la tierra.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/marzo_03.png",
+        "imageAlt": "Paisaje andino asociado a las tradiciones de marzo",
+        "intro": "Pauqar Waray Killa es la tradición cusqueña que el calendario destaca durante marzo.",
+        "sectionTitle": "Florecimiento y renovación",
+        "paragraphs": ["La celebración representa el florecimiento de la vida y la renovación de la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "abril",
+      "name": "Abril",
+      "intro": "Tradiciones de agradecimiento por los frutos de la tierra.",
+      "events": [{
+        "id": "abril-ayriway-killa",
+        "title": "Ayriway Killa",
+        "summary": "Ritual de agradecimiento por los frutos de la tierra y el inicio de nuevas cosechas.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/abril_04.png",
+        "imageAlt": "Tradición andina representada en el calendario de abril",
+        "intro": "Ayriway Killa reúne las expresiones de agradecimiento por los frutos de la tierra que recoge el calendario tradicional de abril.",
+        "sectionTitle": "Agradecimiento a la tierra",
+        "paragraphs": ["La ficha del calendario describe esta tradición como un ritual de agradecimiento por los frutos y el inicio de nuevas cosechas.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "mayo",
+      "name": "Mayo",
+      "intro": "Un mes para conocer las tradiciones de abundancia y naturaleza.",
+      "events": [{
+        "id": "mayo-aymuray-killa",
+        "title": "Aymuray Killa",
+        "summary": "Celebración de la abundancia de los animales y la conexión con la naturaleza.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/mayo_05.jpg",
+        "imageAlt": "Paisaje andino del calendario tradicional de mayo",
+        "intro": "Aymuray Killa es la tradición que el calendario cusqueño resalta en mayo.",
+        "sectionTitle": "Abundancia y naturaleza",
+        "paragraphs": ["La celebración pone en valor la abundancia de los animales y la conexión con la naturaleza.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "junio",
+      "name": "Junio",
+      "intro": "Vive las celebraciones cusqueñas dedicadas al Sol.",
+      "events": [{
+        "id": "junio-qhapaq-inti-raymy",
+        "title": "Qhapaq Inti killa Raymy",
+        "summary": "Gran fiesta del Sol, símbolo de vida, energía y renovación del pueblo andino.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/junio_06.jpg",
+        "imageAlt": "Fiesta tradicional del Sol en el calendario de junio",
+        "intro": "Qhapaq Inti killa Raymy es la fiesta del Sol que presenta el calendario tradicional para junio.",
+        "sectionTitle": "La fiesta del Sol",
+        "paragraphs": ["La celebración simboliza vida, energía y renovación para el pueblo andino.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "julio",
+      "name": "Julio",
+      "intro": "Conoce las costumbres agrícolas andinas de julio.",
+      "events": [{
+        "id": "julio-chaqra-qonakuy-killa",
+        "title": "Chaqra Qonakuy Killa",
+        "summary": "Inicio de la siembra; se honra a la Pachamama con ofrendas y rituales.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/julio_07.png",
+        "imageAlt": "Tradición agrícola andina del calendario de julio",
+        "intro": "Chaqra Qonakuy Killa es la tradición agrícola que el calendario cusqueño señala para julio.",
+        "sectionTitle": "Siembra y agradecimiento",
+        "paragraphs": ["El calendario la relaciona con el inicio de la siembra y las ofrendas a la Pachamama.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "agosto",
+      "name": "Agosto",
+      "intro": "Tradiciones vinculadas al cuidado de la tierra y los cultivos.",
+      "events": [{
+        "id": "agosto-chaqra-yapuy-tarpuy-qilla",
+        "title": "Chaqra Yapuy Tarpuy Qilla",
+        "summary": "Tiempo de aporque y cuidado de los cultivos, fortaleciendo el vínculo con la tierra.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/agosto_08.png",
+        "imageAlt": "Cultivos y paisaje andino del calendario de agosto",
+        "intro": "Chaqra Yapuy Tarpuy Qilla presenta las labores agrícolas y tradiciones que el calendario asocia con agosto.",
+        "sectionTitle": "Cuidado de los cultivos",
+        "paragraphs": ["Es un tiempo de aporque y cuidado de los cultivos, que fortalece el vínculo con la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "septiembre",
+      "name": "Septiembre",
+      "intro": "Danzas, cosecha y fertilidad de la tierra en las tradiciones de septiembre.",
+      "events": [{
+        "id": "septiembre-qoya-raymu-hawkay-killa",
+        "title": "Qoya Raymu Hawkay Killa",
+        "summary": "Celebración de la danza y la cosecha, en honor a la fertilidad de la tierra.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/septiembre_09.jpg",
+        "imageAlt": "Paisaje del calendario tradicional de septiembre",
+        "intro": "Qoya Raymu Hawkay Killa es la celebración que el calendario tradicional de Cusco destaca para septiembre.",
+        "sectionTitle": "Danza y cosecha",
+        "paragraphs": ["La celebración honra la danza, la cosecha y la fertilidad de la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "octubre",
+      "name": "Octubre",
+      "intro": "Descubre la tradición del maíz en el calendario de octubre.",
+      "events": [{
+        "id": "octubre-unu-raimy-amay-killa",
+        "title": "Unu Raimy Amay Killa",
+        "summary": "Fiesta del maíz, símbolo de vida y alimento para toda la comunidad.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/octubre_10.jpg",
+        "imageAlt": "Paisaje andino del calendario tradicional de octubre",
+        "intro": "Unu Raimy Amay Killa es la fiesta del maíz que presenta el calendario cusqueño para octubre.",
+        "sectionTitle": "El maíz y la comunidad",
+        "paragraphs": ["El maíz es celebrado como símbolo de vida y alimento para la comunidad.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "noviembre",
+      "name": "Noviembre",
+      "intro": "Un tiempo de memoria, respeto y conexión con los ancestros.",
+      "events": [{
+        "id": "noviembre-aya-marqay-amaque-killa",
+        "title": "Aya Marqay Amaque Killa",
+        "summary": "Ritual de conexión con los ancestros y respeto por la tierra y sus espíritus.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/noviembre_11.jpg",
+        "imageAlt": "Paisaje asociado a las tradiciones cusqueñas de noviembre",
+        "intro": "Aya Marqay Amaque Killa es la tradición de memoria que el calendario destaca en noviembre.",
+        "sectionTitle": "Memoria y respeto",
+        "paragraphs": ["El calendario describe esta fecha como un ritual de conexión con los ancestros y respeto por la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    },
+    {
+      "slug": "diciembre",
+      "name": "Diciembre",
+      "intro": "Cierra el año con tradiciones de luz y esperanza.",
+      "events": [{
+        "id": "diciembre-poqoy-raimy-killa",
+        "title": "Poqoy Raimy Killa",
+        "summary": "Celebración del retorno de la luz y la esperanza para el nuevo ciclo.",
+        "location": "Cusco y comunidades",
+        "image": "assets/img/image_box_3/diciembre_12.jpg",
+        "imageAlt": "Paisaje del calendario tradicional de diciembre",
+        "intro": "Poqoy Raimy Killa es la celebración que el calendario cusqueño presenta para diciembre.",
+        "sectionTitle": "Luz y nuevo ciclo",
+        "paragraphs": ["La tradición celebra el retorno de la luz y la esperanza para el nuevo ciclo.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
+        "highlightTitle": "Celebración del mes",
+        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
+      }]
+    }
+  ]
+}
