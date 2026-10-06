@@ -63,6 +63,7 @@
       href="assets/css/main.css"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/blog.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/festival-page.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/recourses.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css" />
   </head>
@@ -134,7 +135,40 @@
       </header>
 
       <main class="md-content">
-        <section class="blog-hero brand-page-hero">
+        <section class="festival-hero" aria-labelledby="festival-page-title">
+          <div class="festival-hero__shade" aria-hidden="true"></div>
+          <div class="container festival-hero__content">
+            <nav class="festival-breadcrumb" aria-label="Ruta de navegación">
+              <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <a href="blog.html">Calendario de Fiestas</a>
+              <span class="festival-breadcrumb__current" id="festival-breadcrumb-current">Enero</span>
+            </nav>
+            <h1 id="festival-page-title">Fiestas Tradicionales de Enero</h1>
+            <p id="festival-page-subtitle">Vive nuestras tradiciones, recuerda nuestra cultura.</p>
+          </div>
+        </section>
+
+        <section class="festival-content" aria-label="Calendario de festividades">
+          <div class="container festival-content__inner">
+            <div id="festival-list-view">
+              <div class="festival-section-heading">
+                <div>
+                  <span class="festival-eyebrow">Calendario cultural del Cusco</span>
+                  <h2>Festividades de <span id="festival-month-heading">enero</span></h2>
+                </div>
+                <p id="festival-count" aria-live="polite"></p>
+              </div>
+              <div class="festival-list" id="festival-list" aria-live="polite"></div>
+            </div>
+            <div id="festival-detail-view" hidden></div>
+            <p class="festival-error" id="festival-error" role="status" hidden>
+              No pudimos cargar las festividades. Intenta actualizar la página.
+            </p>
+          </div>
+        </section>
+
+        <section class="blog-hero brand-page-hero" hidden>
           <div class="blog-hero__texture" aria-hidden="true"></div>
           <div class="container blog-hero__content brand-page-hero__inner">
             <span class="blog-hero__eyebrow">Historias para inspirar tu próximo viaje</span>
@@ -143,7 +177,7 @@
           </div>
         </section>
 
-        <section class="blog-section" aria-labelledby="blog-heading">
+        <section class="blog-section" aria-labelledby="blog-heading" hidden>
           <div class="container blog-container">
             <header class="blog-section__header">
               <div>
@@ -398,5 +432,6 @@
     <script type="text/javascript" src="assets/vendors/jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/translate.js"></script>
+    <script type="text/javascript" src="assets/js/festivals.js"></script>
   </body>
 </html>
