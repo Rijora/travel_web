@@ -84,6 +84,7 @@
     />
     <link rel="stylesheet" type="text/css" href="assets/css/recourses.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/festival-calendar.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/contact-cards.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css" />
   </head>
 
@@ -753,7 +754,7 @@
           </section>
           <!-- End / Section -->
         </div>
-
+<br>
         <!-- Section -->
         <section class="awe-section festival-calendar">
           <div class="container">
@@ -1198,177 +1199,78 @@
         </section>
         <!-- End / Section -->
 
-        <!-- Section -->
-        <section class="awe-section bg-gray pb-0">
-          <div class="container">
-            <!-- title -->
-            <div class="title title__style-02">
-              <h2 class="title__title">Special Experts</h2>
+        <section class="contact-cards-section" aria-labelledby="contact-cards-title">
+          <div class="container contact-cards-container">
+            <header class="contact-cards-heading">
+              <span class="contact-cards-heading__accent" aria-hidden="true"></span>
+              <h2 id="contact-cards-title">Estamos aquí para ayudarte</h2>
+              <p>Contáctanos y recibe asesoría personalizada para organizar tu viaje a Cusco.</p>
+            </header>
+
+            <div class="contact-cards-grid">
+              <article class="contact-card">
+                <div class="contact-card__icon" aria-hidden="true"><i class="fa fa-whatsapp"></i></div>
+                <h3>Ventas y Reservas</h3>
+                <p class="contact-card__subtitle">Atención por WhatsApp y teléfono</p>
+                <div class="contact-card__numbers">
+                  <a href="https://wa.me/51993651223" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i><span>993 651 223</span>
+                  </a>
+                  <a href="https://wa.me/51971186810" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i><span>971 186 810</span>
+                  </a>
+                </div>
+                <p class="contact-card__description">Consulta disponibilidad, precios, circuitos turísticos y realiza tu reserva.</p>
+                <a class="contact-card__button contact-card__button--solid" href="https://wa.me/51993651223" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i><span>Contactar por WhatsApp</span><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              </article>
+
+              <article class="contact-card contact-card--agents">
+                <div class="contact-card__icon" aria-hidden="true"><i class="fa fa-user-o"></i></div>
+                <h3>Agentes de Viajes</h3>
+                <p class="contact-card__subtitle">Encuentra el canal ideal para tu consulta</p>
+                <label class="contact-card__select-label" for="contact-agent-select">Selecciona un canal</label>
+                <select class="contact-card__select" id="contact-agent-select" aria-label="Selecciona un canal de atención">
+                  <option value="51993651223" data-name="Ventas y reservas">Ventas y reservas</option>
+                  <option value="51971186810" data-name="Reservas y consultas">Reservas y consultas</option>
+                </select>
+                <div class="contact-agent-preview" aria-live="polite">
+                  <div class="contact-agent-preview__avatar" aria-hidden="true"><i class="fa fa-user"></i></div>
+                  <div class="contact-agent-preview__details">
+                    <strong id="contact-agent-name">Equipo Kuntur</strong>
+                    <span>Asesoría personalizada</span>
+                    <a id="contact-agent-phone" href="https://wa.me/51993651223" target="_blank" rel="noopener noreferrer">
+                      <i class="fa fa-whatsapp" aria-hidden="true"></i><span>993 651 223</span>
+                    </a>
+                  </div>
+                  <a class="contact-agent-preview__button" id="contact-agent-button" href="https://wa.me/51993651223" target="_blank" rel="noopener noreferrer" aria-label="Contactar al equipo por WhatsApp">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span>
+                  </a>
+                </div>
+                <a class="contact-card__button contact-card__button--outline" href="contact.html">
+                  <i class="fa fa-users" aria-hidden="true"></i><span>Ver todos los agentes</span><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              </article>
+
+              <article class="contact-card">
+                <div class="contact-card__icon" aria-hidden="true"><i class="fa fa-bell-o"></i></div>
+                <h3>Asistencia durante tu viaje</h3>
+                <p class="contact-card__subtitle">Línea de emergencia</p>
+                <div class="contact-card__numbers contact-card__numbers--emergency">
+                  <a href="https://wa.me/51990516690" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i><span>990 516 690</span>
+                  </a>
+                </div>
+                <p class="contact-card__description">Atención inmediata para emergencias y asistencia durante tu viaje.</p>
+                <a class="contact-card__button contact-card__button--solid" href="https://wa.me/51990516690" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i><span>WhatsApp Emergencia</span><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              </article>
             </div>
-            <!-- End / title -->
-
-            <!-- swiper__module swiper-container -->
-            <div
-              class="swiper__module swiper-container"
-              data-options='{"slidesPerView":4,"slidesPerColumn":2,"breakpoints":{"320":{"slidesPerView":1,"slidesPerColumn":1},"640":{"slidesPerView":1,"slidesPerColumn":1},"768":{"slidesPerView":1,"slidesPerColumn":1},"1024":{"slidesPerView":3,"slidesPerColumn":2}}}'
-            >
-              <div class="swiper-wrapper">
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/male/18.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Bryan Ryan</h6>
-                    <span class="expert__work">Photography</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/female/17.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Cynthia Aguilar</h6>
-                    <span class="expert__work">Tour guider</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/female/4.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Olivia Ryan</h6>
-                    <span class="expert__work">Programs Assistant</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/male/4.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Alan Lane</h6>
-                    <span class="expert__work">Tour manager</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/male/15.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Brittany Williams</h6>
-                    <span class="expert__work">CEO & Founder</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/female/12.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Sean Coleman</h6>
-                    <span class="expert__work">Sale excutive</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/male/5.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Rachel Wagner</h6>
-                    <span class="expert__work">Tour consultant</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-
-                <!-- expert -->
-                <div class="expert">
-                  <div class="expert__avatar">
-                    <img src="https://uinames.com/api/photos/female/6.jpg" />
-                  </div>
-                  <div class="expert__body">
-                    <h6 class="expert__name">Bryan Ryan</h6>
-                    <span class="expert__work">Photography</span>
-                  </div>
-                </div>
-                <!-- End / expert -->
-              </div>
-              <div class="swiper-button-custom">
-                <div class="swiper-button-prev-custom"></div>
-                <div class="swiper-button-next-custom"></div>
-              </div>
-            </div>
-            <!-- End / swiper__module swiper-container -->
-
-            <!-- swiper__module swiper-container -->
-            <div
-              class="swiper__module swiper-container sec-partner"
-              data-options='{"slidesPerView":6,"breakpoints":{"320":{"slidesPerView":2},"640":{"slidesPerView":3},"768":{"slidesPerView":5},"1024":{"slidesPerView":6}}}'
-            >
-              <div class="swiper-wrapper">
-                <!--  -->
-                <div>
-                  <a href="#"><img src="assets/img/brand/1.png" /></a>
-                </div>
-                <!-- End /  -->
-
-                <!--  -->
-                <div>
-                  <a href="#"><img src="assets/img/brand/2.png" /></a>
-                </div>
-                <!-- End /  -->
-
-                <!--  -->
-                <div>
-                  <a href="#"><img src="assets/img/brand/3.png" /></a>
-                </div>
-                <!-- End /  -->
-
-                <!--  -->
-                <div>
-                  <a href="#"><img src="assets/img/brand/4.png" /></a>
-                </div>
-                <!-- End /  -->
-
-                <!--  -->
-                <div>
-                  <a href="#"><img src="assets/img/brand/5.png" /></a>
-                </div>
-                <!-- End /  -->
-
-                <!--  -->
-                <div>
-                  <a href="#"><img src="assets/img/brand/6.png" /></a>
-                </div>
-                <!-- End /  -->
-              </div>
-              <div class="swiper-button-custom">
-                <div class="swiper-button-prev-custom"></div>
-                <div class="swiper-button-next-custom"></div>
-              </div>
-            </div>
-            <!-- End / swiper__module swiper-container -->
           </div>
         </section>
-        <!-- End / Section -->
       </div>
-      <!-- End / Content-->
 
       <!-- footer -->
       <footer class="kuntur-footer">
@@ -1398,8 +1300,8 @@
                 <li><a href="info_our.html">Nosotros</a></li>
                 <li><a href="contact.html">Contacto</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="#">Política de privacidad</a></li>
-                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="politics_privaty.html">Política de privacidad</a></li>
+                <li><a href="terms_conditions.html">Términos y condiciones</a></li>
               </ul>
               <div class="kuntur-footer__promise">
                 <h3><i class="fa fa-picture-o" aria-hidden="true"></i> Nuestra promesa</h3>
@@ -1539,5 +1441,6 @@
     <!-- App-->
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/translate.js"></script>
+    <script type="text/javascript" src="assets/js/contact-cards.js"></script>
   </body>
 </html>

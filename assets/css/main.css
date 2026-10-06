@@ -3205,6 +3205,10 @@ ul {
   top: 20px;
 }
 
+.mobile-menu-backdrop {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .mobile-menu-backdrop {
     position: fixed;
