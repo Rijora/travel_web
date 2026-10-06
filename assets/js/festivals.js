@@ -3,6 +3,7 @@
 
   var dataUrl = 'assets/data/festivals.json';
   var detailParam = 'fiesta';
+  var header = document.querySelector('.header');
   var page = document.querySelector('.festival-hero');
   var listView = document.getElementById('festival-list-view');
   var list = document.getElementById('festival-list');
@@ -141,6 +142,7 @@
     }
 
     page.hidden = detailIsOpen;
+    header.classList.toggle('festival-header-solid', detailIsOpen);
     listView.hidden = detailIsOpen;
     detailView.hidden = !detailIsOpen;
     error.hidden = true;

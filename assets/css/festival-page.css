@@ -6,6 +6,11 @@
   display: none !important;
 }
 
+.header.festival-header-solid {
+  background-color: #05090c;
+  box-shadow: 0 2px 22px rgba(5, 22, 31, 0.18);
+}
+
 .festival-hero {
   position: relative;
   isolation: isolate;
@@ -269,6 +274,7 @@
 .festival-detail {
   max-width: 1120px;
   margin: 0 auto;
+  padding-top: 82px;
 }
 
 .festival-detail__breadcrumb {
@@ -613,6 +619,10 @@
 
   .festival-detail__cover {
     height: 210px;
+  }
+
+  .festival-detail {
+    padding-top: 72px;
   }
 
   .festival-detail__layout {
