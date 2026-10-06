@@ -3480,7 +3480,13 @@ ul {
 
 .hero__thumbails .hero__item:hover {
   transform: scale(1.5);
+  box-shadow: inset 0 0 0 2px #027280, 0 0 10px #027280;
 }
+.hero__thumbails .hero__item:active {
+  transform: scale(1.5);
+  box-shadow: inset 0 0 0 2px #027280, 0 0 10px #027280;
+}
+
 
 .hero__thumbails .hero__item span {
   position: absolute;
