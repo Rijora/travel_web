@@ -14,6 +14,7 @@
   var breadcrumbCurrent = document.getElementById('festival-breadcrumb-current');
   var count = document.getElementById('festival-count');
   var monthHeading = document.getElementById('festival-month-heading');
+  var monthSelect = document.getElementById('festival-month-select');
   var eventsById = new Map();
   var calendar;
   var selectedMonth;
@@ -52,15 +53,20 @@
 
   function getMonthFromUrl() {
     var params = new URLSearchParams(window.location.search);
-    var requestedSlug = normalizeMonthSlug(params.get('mes') || 'enero');
+    var hasRequestedMonth = params.has('mes');
+    var currentMonthSlug = normalizeMonthSlug(new Intl.DateTimeFormat('es', { month: 'long' }).format(new Date()));
+    var requestedSlug = normalizeMonthSlug(hasRequestedMonth ? params.get('mes') : currentMonthSlug);
     var month = calendar.months.find(function (item) {
       return item.slug === requestedSlug;
     });
 
     if (!month) {
-      month = calendar.months[0];
+      month = calendar.months.find(function (item) { return item.slug === currentMonthSlug; }) || calendar.months[0];
       params.set('mes', month.slug);
       params.delete(detailParam);
+      window.history.replaceState({}, '', 'blog.html?' + params.toString());
+    } else if (!hasRequestedMonth) {
+      params.set('mes', month.slug);
       window.history.replaceState({}, '', 'blog.html?' + params.toString());
     }
 
@@ -75,6 +81,7 @@
     pageSubtitle.textContent = selectedMonth.intro;
     breadcrumbCurrent.textContent = selectedMonth.name;
     count.textContent = events.length + (events.length === 1 ? ' festividad' : ' festividades');
+    if (monthSelect) monthSelect.value = selectedMonth.slug;
     list.innerHTML = events.map(function (event) {
       var href = festivalUrl(event.id);
       return '<article class="festival-card">' +
@@ -151,6 +158,7 @@
       renderDetail(event);
       document.title = event.title + ' | Fiestas del Cusco | Kuntur Travel';
     } else {
+      renderList();
       document.title = 'Fiestas Tradicionales de ' + selectedMonth.name + ' | Kuntur Travel';
     }
   }
@@ -192,8 +200,12 @@
         if (new Set(calendar.months.map(function (month) { return month.slug; })).size !== calendar.months.length) {
           throw new Error('Hay meses duplicados en el archivo JSON');
         }
+        if (monthSelect) {
+          monthSelect.innerHTML = calendar.months.map(function (month) {
+            return '<option value="' + escapeHtml(month.slug) + '">' + escapeHtml(month.name) + '</option>';
+          }).join('');
+        }
         renderRoute();
-        renderList();
       })
       .catch(function (loadError) {
         console.error('Error al cargar las festividades:', loadError);
@@ -221,13 +233,25 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
+  if (monthSelect) {
+    monthSelect.addEventListener('change', function () {
+      var month = calendar && calendar.months.find(function (item) {
+        return item.slug === monthSelect.value;
+      });
+      if (!month) return;
+      window.history.pushState({}, '', 'blog.html?mes=' + encodeURIComponent(month.slug));
+      renderRoute();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
   document.addEventListener('click', function (clickEvent) {
     var backLink = clickEvent.target.closest('.festival-back-link');
     if (!backLink || clickEvent.defaultPrevented || clickEvent.button !== 0 || clickEvent.metaKey || clickEvent.ctrlKey || clickEvent.shiftKey || clickEvent.altKey) {
       return;
     }
     clickEvent.preventDefault();
-    window.history.pushState({}, '', 'blog.html');
+    window.history.pushState({}, '', festivalUrl());
     renderRoute();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
