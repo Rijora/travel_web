@@ -1,0 +1,145 @@
+{
+  "whatsapp": "51993651223",
+  "tickets": [
+      {
+      "id": "integral",
+      "eyebrow": "Boleto turístico",
+      "title": "Boleto Turístico Integral",
+      "subtitle": "Este ticket tiene una validez de diez días y le da el derecho de ingreso a los siguientes lugares:",
+      "validity": "10 días",
+      "destination": "Cusco y provincias",
+      "accessSummary": "Acceso a 16 atractivos turísticos",
+      "heroImage": "assets/img/hero/1.jpeg",
+      "gallery": [
+        { "src": "assets/img/image_box_2/box_1.png", "alt": "Complejo arqueológico de Sacsayhuamán" },
+        { "src": "assets/img/image_box_2/box_3.png", "alt": "Andenes incas del Valle Sagrado" },
+        { "src": "assets/img/image_box_2/box_2.jpeg", "alt": "Qoricancha, templo histórico de Cusco" },
+        { "src": "assets/img/hero/3.jpeg", "alt": "Paisaje de montaña en Cusco" }
+      ],
+      "placesTitle": "Lugares incluidos",
+      "description": "Con el Boleto Turístico Integral podrás visitar 16 increíbles lugares entre museos y complejos arqueológicos:",
+      "places": [
+        "Museo casa del inca Garcilaso de la Vega",
+        "Museo de arte contemporáneo",
+        "Museo de arte popular",
+        "Museo de sitio del Qoricancha",
+        "Centro Qosqo de arte nativo",
+        "Monumento al inca Pachacutec",
+        "Complejo arqueológico de Sacsayhuaman",
+        "Complejo arqueológico de Q’engo",
+        "Complejo de Puca pucara – fortaleza roja",
+        "Tambomachay – baños del inca",
+        "Parque arqueológico de Pisac",
+        "Ollantaytambo – ciudad inca viviente",
+        "Chinchero",
+        "Moray",
+        "Tipon – templo del agua",
+        "Parque arqueológico de Pikillacta"
+      ],
+      "ticketTypes": [
+        { "name": "BTC general cusco", "icon": "fa-user", "foreign": "S/ 130.00", "national": "S/ 70.00", "validity": "10 días" },
+        { "name": "BTC integral general estudiantes", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "10 días" }
+      ],
+      "calloutTitle": "¡Vive la experiencia completa de Cusco!",
+      "calloutText": "Adquiere tu Boleto Turístico Integral y explora la historia, cultura y belleza de nuestra tierra.",
+      "accent": "Un solo boleto, 16 experiencias"
+    },
+    {
+      "id": "circuito-i",
+      "eyebrow": "Boleto turístico parcial",
+      "title": "Circuito I",
+      "subtitle": "Descubre los principales atractivos arqueológicos de Cusco en un solo boleto.",
+      "validity": "1 día",
+      "destination": "Cusco",
+      "accessSummary": "4 atractivos turísticos",
+      "heroImage": "assets/img/image_box_2/box_1.png",
+      "gallery": [
+        { "src": "assets/img/image_box_2/box_1.png", "alt": "Complejo arqueológico de Sacsayhuamán" },
+        { "src": "assets/img/hero/2.png", "alt": "Muros incas de piedra en Cusco" },
+        { "src": "assets/img/image_box_1/1.jpg", "alt": "Sitio arqueológico andino" },
+        { "src": "assets/img/image_box_1/4.jpg", "alt": "Paisaje de Cusco" }
+      ],
+      "placesTitle": "Lugares incluidos",
+      "description": "Recorre cuatro importantes sitios arqueológicos en un circuito ideal para descubrir la historia inca cerca de Cusco:",
+      "places": [
+        "Complejo arqueológico de Sacsayhuamán",
+        "Complejo arqueológico de Q'enqo",
+        "Puca Pucara - fortaleza roja",
+        "Tambomachay - baños del inca"
+      ],
+      "ticketTypes": [
+        { "name": "Nacional", "icon": "fa-user", "foreign": "S/ 70.00", "national": "S/ 70.00", "validity": "1 día" },
+        { "name": "Estudiante", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "1 día" }
+      ],
+      "calloutTitle": "Descubre la historia de los Incas",
+      "calloutText": "Visita fortalezas, centros ceremoniales y sitios arqueológicos en las alturas de Cusco.",
+      "accent": "Cuatro sitios, una gran historia"
+    },
+    {
+      "id": "circuito-ii",
+      "eyebrow": "Boleto turístico parcial",
+      "title": "Circuito II",
+      "subtitle": "Explora museos, sitios históricos y espacios culturales del Cusco moderno y su entorno.",
+      "validity": "1 día",
+      "destination": "Cusco",
+      "accessSummary": "8 atractivos turísticos",
+      "heroImage": "assets/img/image_box_2/box_2.jpeg",
+      "gallery": [
+        { "src": "assets/img/image_box_2/box_2.jpeg", "alt": "Qoricancha y arquitectura histórica de Cusco" },
+        { "src": "assets/img/hero/2.png", "alt": "Patrimonio arqueológico de Cusco" },
+        { "src": "assets/img/image_box_1/5.jpg", "alt": "Paisaje cultural del Valle Sur" },
+        { "src": "assets/img/image_box_1/6.jpg", "alt": "Andenes y paisaje andino" }
+      ],
+      "placesTitle": "Lugares incluidos",
+      "description": "Combina espacios culturales de la ciudad con complejos arqueológicos y paisajes del Valle Sur:",
+      "places": [
+        "Museo Casa del Inca Garcilaso",
+        "Museo de arte contemporáneo",
+        "Museo de arte popular",
+        "Museo de sitio del Qoricancha",
+        "Centro Qosqo de arte nativo",
+        "Monumento al Inca Pachacutec",
+        "Parque arqueológico de Tipón",
+        "Parque arqueológico de Pikillacta"
+      ],
+      "ticketTypes": [
+        { "name": "Nacional", "icon": "fa-user", "foreign": "S/ 70.00", "national": "S/ 70.00", "validity": "1 día" },
+        { "name": "Estudiante", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "1 día" }
+      ],
+      "calloutTitle": "Cultura y arqueología en un solo recorrido",
+      "calloutText": "Dedica tiempo a los museos de Cusco y continúa tu visita por el fascinante Valle Sur.",
+      "accent": "Museos, historia y Valle Sur"
+    },
+    {
+      "id": "circuito-iii",
+      "eyebrow": "Boleto turístico parcial",
+      "title": "Circuito III",
+      "subtitle": "Viaja por los paisajes y centros arqueológicos más representativos del Valle Sagrado.",
+      "validity": "1 día",
+      "destination": "Valle Sagrado",
+      "accessSummary": "4 atractivos turísticos",
+      "heroImage": "assets/img/image_box_2/box_3.png",
+      "gallery": [
+        { "src": "assets/img/image_box_2/box_3.png", "alt": "Andenes arqueológicos del Valle Sagrado" },
+        { "src": "assets/img/image_box_1/7.jpg", "alt": "Paisaje del Valle Sagrado" },
+        { "src": "assets/img/image_box_1/8.jpg", "alt": "Sitio arqueológico entre montañas" },
+        { "src": "assets/img/hero/3.jpeg", "alt": "Montañas de la región Cusco" }
+      ],
+      "placesTitle": "Lugares incluidos",
+      "description": "Descubre la arquitectura, agricultura y legado de las comunidades incas del Valle Sagrado:",
+      "places": [
+        "Parque arqueológico de Pisac",
+        "Parque arqueológico de Ollantaytambo",
+        "Parque arqueológico de Chinchero",
+        "Parque arqueológico de Moray"
+      ],
+      "ticketTypes": [
+        { "name": "Nacional", "icon": "fa-user", "foreign": "S/ 70.00", "national": "S/ 70.00", "validity": "1 día" },
+        { "name": "Estudiante", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "1 día" }
+      ],
+      "calloutTitle": "¡El Valle Sagrado te espera!",
+      "calloutText": "Conecta con paisajes increíbles y la historia viva de los pueblos del Valle Sagrado.",
+      "accent": "Un boleto, cuatro destinos"
+    }
+  ]
+}
