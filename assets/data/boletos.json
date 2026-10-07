@@ -46,6 +46,12 @@
     },
     {
       "id": "circuito-i",
+      "circuitPage": {
+        "name": "Circuito I",
+        "kicker": "CIRCUITO I",
+        "location": "Sacsayhuamán, Cusco",
+        "prices": { "national": "S/ 70.00", "student": "S/ 40.00" }
+      },
       "eyebrow": "Boleto turístico parcial",
       "title": "Circuito I",
       "subtitle": "Descubre los principales atractivos arqueológicos de Cusco en un solo boleto.",
@@ -77,6 +83,12 @@
     },
     {
       "id": "circuito-ii",
+      "circuitPage": {
+        "name": "Circuito II",
+        "kicker": "CIRCUITO II",
+        "location": "Centro Histórico y Valle Sur, Cusco",
+        "prices": { "national": "S/ 70.00", "student": "S/ 40.00" }
+      },
       "eyebrow": "Boleto turístico parcial",
       "title": "Circuito II",
       "subtitle": "Explora museos, sitios históricos y espacios culturales del Cusco moderno y su entorno.",
@@ -112,6 +124,12 @@
     },
     {
       "id": "circuito-iii",
+      "circuitPage": {
+        "name": "Circuito III",
+        "kicker": "CIRCUITO III",
+        "location": "Valle Sagrado, Cusco",
+        "prices": { "national": "S/ 70.00", "student": "S/ 40.00" }
+      },
       "eyebrow": "Boleto turístico parcial",
       "title": "Circuito III",
       "subtitle": "Viaja por los paisajes y centros arqueológicos más representativos del Valle Sagrado.",
