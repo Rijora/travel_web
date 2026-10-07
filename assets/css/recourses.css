@@ -628,8 +628,12 @@ body {
   position: absolute;
   left: 18px;
   right: 18px;
-  bottom: 62px;
+  bottom: 16px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 14px;
   color: #fff;
 }
 
@@ -656,31 +660,30 @@ body {
 }
 
 .experience-card__button {
-  position: absolute;
-  left: 18px;
-  right: 18px;
-  bottom: 18px;
-  z-index: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: calc(100% - 36px);
+  display: flex;
+  width: 180px;
   height: 38px;
-  border: 1px solid rgba(119, 238, 255, 0.9);
-  border-radius: 99px;
-  background: rgba(8, 164, 181, 0.12);
-  color: #e6ffff;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 0 16px 0 18px;
+  border: 2px solid rgba(125, 243, 255, 0.95);
+  border-radius: 999px;
+  background: rgba(3, 128, 153, 0.42);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
   text-decoration: none;
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  transition: all 0.2s ease;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
 .experience-card__button:hover,
 .experience-card__button:focus-visible {
-  background: rgba(12, 170, 191, 0.34);
+  border-color: rgba(155, 250, 255, 1);
+  background: rgba(4, 142, 170, 0.72);
+  color: #fff;
   transform: translateY(-1px);
 }
 
@@ -798,7 +801,7 @@ body {
 .reference-banner__title span {
   display: block;
   margin-top: 8px;
-  color: #36d2e5;
+  color: white;
   font-weight: 700;
   text-shadow: 0 0 18px rgba(54, 210, 229, 0.35);
 }
@@ -876,7 +879,7 @@ body {
 .reference-banner__cta:hover,
 .reference-banner__cta:focus-visible {
   transform: translateY(-1px);
-  background: rgba(4, 130, 146, 0.9);
+  color: white !important;
 }
 
 .reference-banner__cta-icon {
