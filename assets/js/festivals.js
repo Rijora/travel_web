@@ -85,7 +85,7 @@
     list.innerHTML = events.map(function (event) {
       var href = festivalUrl(event.id);
       return '<article class="festival-card">' +
-        '<div class="festival-card__date"><span>' + escapeHtml(event.day || '—') + '</span><small>' + escapeHtml(selectedMonth.name) + '</small></div>' +
+        '<div class="festival-card__date notranslate" translate="no"><span>' + escapeHtml(event.day || '—') + '</span><small>' + escapeHtml(selectedMonth.name) + '</small></div>' +
         '<a class="festival-card__image" href="' + escapeHtml(href) + '" aria-label="Ver ' + escapeHtml(event.title) + '">' +
           '<img src="' + escapeHtml(safeImagePath(event.image)) + '" alt="' + escapeHtml(event.imageAlt) + '" loading="lazy">' +
         '</a>' +
@@ -202,7 +202,7 @@
         }
         if (monthSelect) {
           monthSelect.innerHTML = calendar.months.map(function (month) {
-            return '<option value="' + escapeHtml(month.slug) + '">' + escapeHtml(month.name) + '</option>';
+            return '<option class="notranslate" translate="no" value="' + escapeHtml(month.slug) + '">' + escapeHtml(month.name) + '</option>';
           }).join('');
         }
         renderRoute();

@@ -84,31 +84,69 @@
 
 .about-intro {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
   gap: 22px;
   margin-bottom: 36px;
 }
 
 .about-info-card {
-  background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  border-radius: 12px;
-  padding: 26px 28px;
-  box-shadow: 0 10px 24px rgba(16, 35, 20, 0.04);
+  position: relative;
+  overflow: hidden;
+  padding: 28px 27px;
+  border: 1px solid #e1e9e7;
+  border-top: 3px solid #0b8588;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(18, 56, 57, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(18, 56, 57, 0.1);
 }
 
 .about-info-card h3 {
-  margin: 0 0 10px;
-  font-size: 18px;
+  margin: 0 0 14px;
+  color: #075a61;
+  font-size: 20px;
   font-weight: 700;
-  color: #2b2b2b;
+  letter-spacing: -0.02em;
 }
 
 .about-info-card p {
   margin: 0;
-  font-size: 15px;
-  line-height: 1.8;
-  color: #4e4e4e;
+  color: #526365;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.about-info-card__list {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0 0;
+  padding: 0;
+  color: #526365;
+  font-size: 13px;
+  line-height: 1.5;
+  list-style: none;
+}
+
+.about-info-card__list li {
+  position: relative;
+  padding-left: 21px;
+}
+
+.about-info-card__list li::before {
+  position: absolute;
+  top: 0.45em;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #13a6a1;
+  content: "";
 }
 
 .about-benefits {
@@ -135,7 +173,7 @@
   align-items: center;
   justify-content: center;
   background: rgba(29, 95, 47, 0.12);
-  color: #1d5f2f;
+  color: #087c80;
   font-size: 24px;
 }
 
@@ -143,7 +181,7 @@
   margin: 0 0 10px;
   font-size: 16px;
   font-weight: 700;
-  color: #1d5f2f;
+  color: #087c80;
 }
 
 .benefit-item p {
@@ -314,5 +352,15 @@
   .benefit-item,
   .about-info-card {
     padding: 20px 16px;
+  }
+
+  .about-info-card:hover {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-info-card {
+    transition: none;
   }
 }

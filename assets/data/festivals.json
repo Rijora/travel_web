@@ -1,326 +1,1321 @@
 {
-  "month": "Enero",
-  "year": "Cada año",
-  "intro": "Vive nuestras tradiciones, recuerda nuestra cultura.",
-  "events": [
-    {
-      "id": "santa-maria-madre-de-dios",
-      "day": "01",
-      "title": "Fiesta solemnidad de Santa María Madre de Dios – Día Mundial de la Paz",
-      "summary": "Una de las celebraciones más importantes del mes, que reúne a fieles de todo el Cusco y provincias, para pedir por la paz y el bienestar.",
-      "location": "Cusco y provincias",
-      "image": "assets/img/image_box_3/enero_01.png",
-      "imageAlt": "Celebración tradicional andina en Cusco",
-      "intro": "La festividad de Santa María Madre de Dios, celebrada cada 1 de enero, es una de las más importantes del calendario cusqueño. Esta fecha también conmemora el Día Mundial de la Paz, un mensaje de esperanza, unión y fraternidad para todos los pueblos.",
-      "sectionTitle": "¿Qué se celebra?",
-      "paragraphs": [
-        "Se rinde homenaje a la Virgen María, madre de Jesús, en su advocación de Madre de Dios, reconociendo su papel como guía espiritual y símbolo de paz. Durante esta festividad, se realizan misas solemnes, procesiones y diversas actividades religiosas y culturales en la ciudad del Cusco y en distintas provincias de la región.",
-        "Además, al coincidir con el Día Mundial de la Paz, se promueve un mensaje de reconciliación, solidaridad y respeto entre todos los pueblos."
-      ],
-      "highlightTitle": "Dato importante",
-      "highlight": "Esta celebración reúne a miles de fieles que participan con devoción y alegría, fortaleciendo nuestras tradiciones y la identidad cusqueña."
-    },
-    {
-      "id": "senor-del-cabildo",
-      "day": "02",
-      "title": "Fiesta del Señor del Cabildo",
-      "summary": "Tradición que se celebra en las parroquias Santa Ana y San Pedro, en la ciudad del Cusco.",
-      "location": "Parroquias Santa Ana y San Pedro, Cusco",
-      "image": "assets/img/hero/2.png",
-      "imageAlt": "Templo histórico de piedra en Cusco",
-      "intro": "La fiesta del Señor del Cabildo forma parte de las celebraciones religiosas cusqueñas del inicio de año. Vecinos y devotos se reúnen en las parroquias de Santa Ana y San Pedro para mantener viva esta tradición.",
-      "sectionTitle": "Una tradición cusqueña",
-      "paragraphs": [
-        "Las actividades religiosas y comunitarias convocan a familias de distintos barrios. La celebración es una oportunidad para compartir la fe y reencontrarse con las costumbres locales.",
-        "Las parroquias de Santa Ana y San Pedro son parte del recorrido por el centro histórico y sus barrios tradicionales."
-      ],
-      "highlightTitle": "Dónde participar",
-      "highlight": "La festividad se celebra en las parroquias Santa Ana y San Pedro, en la ciudad del Cusco."
-    },
-    {
-      "id": "dulce-nombre-de-jesus",
-      "day": "02",
-      "title": "Fiesta del Señor Dulce Nombre de Jesús",
-      "summary": "Se celebra en la parroquia Santa Ana y San Sebastián, además de diversos distritos y provincias del Cusco.",
-      "location": "Parroquia Santa Ana y San Sebastián, Cusco, distritos y provincias",
-      "image": "assets/img/image_box_3/enero_01.png",
-      "imageAlt": "Tradición religiosa y cultural de Cusco",
-      "intro": "El 2 de enero, comunidades de Cusco celebran la fiesta del Señor Dulce Nombre de Jesús con actividades de carácter religioso y cultural.",
-      "sectionTitle": "Fe y comunidad",
-      "paragraphs": [
-        "La celebración convoca a devotos en la parroquia Santa Ana y en San Sebastián. También se vive en distintos distritos y provincias, donde cada comunidad conserva sus propias expresiones y costumbres.",
-        "Es una ocasión para compartir en comunidad y conocer la diversidad de las fiestas tradicionales cusqueñas."
-      ],
-      "highlightTitle": "Celebración local",
-      "highlight": "Las actividades pueden variar según la parroquia y la comunidad que organiza la festividad."
-    },
-    {
-      "id": "santos-reyes-magos",
-      "day": "06",
-      "title": "Adoración de los Santos Reyes Magos",
-      "summary": "En honor a Melchor, Gaspar y Baltazar, con celebraciones en el Cusco, distritos y provincias.",
-      "location": "Cusco, distritos y provincias",
-      "image": "assets/img/image_box_3/enero_01.png",
-      "imageAlt": "Celebración tradicional en los Andes del Cusco",
-      "intro": "Cada 6 de enero, la adoración de los Santos Reyes Magos reúne a familias y comunidades en una de las fechas más queridas de la tradición cristiana.",
-      "sectionTitle": "Una celebración para compartir",
-      "paragraphs": [
-        "En honor a Melchor, Gaspar y Baltazar, se realizan celebraciones religiosas y encuentros comunitarios en la ciudad del Cusco, sus distritos y provincias.",
-        "Las costumbres locales dan un carácter especial a esta fecha y mantienen viva la participación de las familias."
-      ],
-      "highlightTitle": "Fecha de celebración",
-      "highlight": "La festividad se celebra el 6 de enero en distintas localidades de Cusco."
-    },
-    {
-      "id": "senor-de-pampamarca",
-      "day": "14",
-      "title": "Fiesta del Señor de Pampamarca",
-      "summary": "Se celebra en la provincia de Canas, Cusco y otras provincias.",
-      "location": "Provincia de Canas, Cusco y provincias",
-      "image": "assets/img/hero/3.jpeg",
-      "imageAlt": "Paisaje de montañas y andenes en los Andes",
-      "intro": "La fiesta del Señor de Pampamarca se celebra el 14 de enero en la provincia de Canas y convoca a devotos de distintas localidades.",
-      "sectionTitle": "Tradición en Canas",
-      "paragraphs": [
-        "La celebración reúne expresiones de fe y costumbres propias de las comunidades andinas. También participan visitantes de Cusco y de otras provincias.",
-        "Pampamarca ofrece un paisaje altoandino que acompaña esta fecha de encuentro y devoción."
-      ],
-      "highlightTitle": "Ubicación",
-      "highlight": "La festividad tiene como centro la provincia de Canas, en la región Cusco."
-    },
-    {
-      "id": "san-antonio-abad",
-      "day": "17",
-      "title": "Fiesta de San Antonio Abad",
-      "summary": "Una celebración tradicional en la ciudad del Cusco.",
-      "location": "Cusco",
-      "image": "assets/img/image_box_3/enero_01.png",
-      "imageAlt": "Fiesta tradicional con participación de la comunidad cusqueña",
-      "intro": "La ciudad del Cusco celebra a San Antonio Abad cada 17 de enero, en una jornada que forma parte de su calendario tradicional.",
-      "sectionTitle": "Devoción y tradición",
-      "paragraphs": [
-        "La festividad convoca a vecinos y devotos en torno a actividades religiosas y expresiones culturales propias de la ciudad.",
-        "Como en otras fiestas cusqueñas, la participación de la comunidad ayuda a transmitir estas costumbres entre generaciones."
-      ],
-      "highlightTitle": "En la ciudad del Cusco",
-      "highlight": "La celebración se realiza el 17 de enero."
-    },
-    {
-      "id": "virgen-belen-san-sebastian",
-      "day": "20",
-      "title": "Fiesta de Nuestra Señora de Belén y Patrón San Sebastián",
-      "summary": "Celebración patronal del Pera Cha’pchi, con gran devoción en Cusco y distritos.",
-      "location": "Cusco y distritos",
-      "image": "assets/img/image_box_3/enero_01.png",
-      "imageAlt": "Devoción y tradición en una festividad cusqueña",
-      "intro": "El 20 de enero, la fiesta de Nuestra Señora de Belén y del Patrón San Sebastián convoca a sus devotos en Cusco y distintos distritos.",
-      "sectionTitle": "Celebración patronal",
-      "paragraphs": [
-        "La festividad patronal del Pera Cha’pchi se vive con especial devoción y reúne a la comunidad en actividades religiosas y culturales.",
-        "Cada localidad aporta sus propias costumbres a esta fecha significativa del calendario de enero."
-      ],
-      "highlightTitle": "Tradición que reúne",
-      "highlight": "La celebración se comparte en Cusco y sus distritos."
-    }
-  ],
-  "otherMonths": [
-    {
-      "slug": "febrero",
-      "name": "Febrero",
-      "intro": "Conoce las tradiciones cusqueñas de febrero.",
-      "events": [{
-        "id": "febrero-jatun-poqoy-killa",
-        "title": "Jatun Poqoy Killa",
-        "summary": "Fiesta de la siembra: se pide por una buena cosecha y la prosperidad de las familias.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/febrero_02.png",
-        "imageAlt": "Tradición de febrero en Cusco",
-        "intro": "Jatun Poqoy Killa es la celebración tradicional que el calendario de Kuntur Travel destaca para febrero.",
-        "sectionTitle": "Tradición de la siembra",
-        "paragraphs": ["En esta fecha se pide por una buena cosecha y la prosperidad de las familias.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "marzo",
-      "name": "Marzo",
-      "intro": "Celebraciones de renovación y florecimiento en Cusco.",
-      "events": [{
-        "id": "marzo-pauqar-waray-killa",
-        "title": "Pauqar Waray Killa",
-        "summary": "Celebración del florecimiento de la vida y la renovación de la tierra.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/marzo_03.png",
-        "imageAlt": "Paisaje andino asociado a las tradiciones de marzo",
-        "intro": "Pauqar Waray Killa es la tradición cusqueña que el calendario destaca durante marzo.",
-        "sectionTitle": "Florecimiento y renovación",
-        "paragraphs": ["La celebración representa el florecimiento de la vida y la renovación de la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "abril",
-      "name": "Abril",
-      "intro": "Tradiciones de agradecimiento por los frutos de la tierra.",
-      "events": [{
-        "id": "abril-ayriway-killa",
-        "title": "Ayriway Killa",
-        "summary": "Ritual de agradecimiento por los frutos de la tierra y el inicio de nuevas cosechas.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/abril_04.png",
-        "imageAlt": "Tradición andina representada en el calendario de abril",
-        "intro": "Ayriway Killa reúne las expresiones de agradecimiento por los frutos de la tierra que recoge el calendario tradicional de abril.",
-        "sectionTitle": "Agradecimiento a la tierra",
-        "paragraphs": ["La ficha del calendario describe esta tradición como un ritual de agradecimiento por los frutos y el inicio de nuevas cosechas.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "mayo",
-      "name": "Mayo",
-      "intro": "Un mes para conocer las tradiciones de abundancia y naturaleza.",
-      "events": [{
-        "id": "mayo-aymuray-killa",
-        "title": "Aymuray Killa",
-        "summary": "Celebración de la abundancia de los animales y la conexión con la naturaleza.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/mayo_05.jpg",
-        "imageAlt": "Paisaje andino del calendario tradicional de mayo",
-        "intro": "Aymuray Killa es la tradición que el calendario cusqueño resalta en mayo.",
-        "sectionTitle": "Abundancia y naturaleza",
-        "paragraphs": ["La celebración pone en valor la abundancia de los animales y la conexión con la naturaleza.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "junio",
-      "name": "Junio",
-      "intro": "Vive las celebraciones cusqueñas dedicadas al Sol.",
-      "events": [{
-        "id": "junio-qhapaq-inti-raymy",
-        "title": "Qhapaq Inti killa Raymy",
-        "summary": "Gran fiesta del Sol, símbolo de vida, energía y renovación del pueblo andino.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/junio_06.jpg",
-        "imageAlt": "Fiesta tradicional del Sol en el calendario de junio",
-        "intro": "Qhapaq Inti killa Raymy es la fiesta del Sol que presenta el calendario tradicional para junio.",
-        "sectionTitle": "La fiesta del Sol",
-        "paragraphs": ["La celebración simboliza vida, energía y renovación para el pueblo andino.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "julio",
-      "name": "Julio",
-      "intro": "Conoce las costumbres agrícolas andinas de julio.",
-      "events": [{
-        "id": "julio-chaqra-qonakuy-killa",
-        "title": "Chaqra Qonakuy Killa",
-        "summary": "Inicio de la siembra; se honra a la Pachamama con ofrendas y rituales.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/julio_07.png",
-        "imageAlt": "Tradición agrícola andina del calendario de julio",
-        "intro": "Chaqra Qonakuy Killa es la tradición agrícola que el calendario cusqueño señala para julio.",
-        "sectionTitle": "Siembra y agradecimiento",
-        "paragraphs": ["El calendario la relaciona con el inicio de la siembra y las ofrendas a la Pachamama.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "agosto",
-      "name": "Agosto",
-      "intro": "Tradiciones vinculadas al cuidado de la tierra y los cultivos.",
-      "events": [{
-        "id": "agosto-chaqra-yapuy-tarpuy-qilla",
-        "title": "Chaqra Yapuy Tarpuy Qilla",
-        "summary": "Tiempo de aporque y cuidado de los cultivos, fortaleciendo el vínculo con la tierra.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/agosto_08.png",
-        "imageAlt": "Cultivos y paisaje andino del calendario de agosto",
-        "intro": "Chaqra Yapuy Tarpuy Qilla presenta las labores agrícolas y tradiciones que el calendario asocia con agosto.",
-        "sectionTitle": "Cuidado de los cultivos",
-        "paragraphs": ["Es un tiempo de aporque y cuidado de los cultivos, que fortalece el vínculo con la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "septiembre",
-      "name": "Septiembre",
-      "intro": "Danzas, cosecha y fertilidad de la tierra en las tradiciones de septiembre.",
-      "events": [{
-        "id": "septiembre-qoya-raymu-hawkay-killa",
-        "title": "Qoya Raymu Hawkay Killa",
-        "summary": "Celebración de la danza y la cosecha, en honor a la fertilidad de la tierra.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/septiembre_09.jpg",
-        "imageAlt": "Paisaje del calendario tradicional de septiembre",
-        "intro": "Qoya Raymu Hawkay Killa es la celebración que el calendario tradicional de Cusco destaca para septiembre.",
-        "sectionTitle": "Danza y cosecha",
-        "paragraphs": ["La celebración honra la danza, la cosecha y la fertilidad de la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "octubre",
-      "name": "Octubre",
-      "intro": "Descubre la tradición del maíz en el calendario de octubre.",
-      "events": [{
-        "id": "octubre-unu-raimy-amay-killa",
-        "title": "Unu Raimy Amay Killa",
-        "summary": "Fiesta del maíz, símbolo de vida y alimento para toda la comunidad.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/octubre_10.jpg",
-        "imageAlt": "Paisaje andino del calendario tradicional de octubre",
-        "intro": "Unu Raimy Amay Killa es la fiesta del maíz que presenta el calendario cusqueño para octubre.",
-        "sectionTitle": "El maíz y la comunidad",
-        "paragraphs": ["El maíz es celebrado como símbolo de vida y alimento para la comunidad.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "noviembre",
-      "name": "Noviembre",
-      "intro": "Un tiempo de memoria, respeto y conexión con los ancestros.",
-      "events": [{
-        "id": "noviembre-aya-marqay-amaque-killa",
-        "title": "Aya Marqay Amaque Killa",
-        "summary": "Ritual de conexión con los ancestros y respeto por la tierra y sus espíritus.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/noviembre_11.jpg",
-        "imageAlt": "Paisaje asociado a las tradiciones cusqueñas de noviembre",
-        "intro": "Aya Marqay Amaque Killa es la tradición de memoria que el calendario destaca en noviembre.",
-        "sectionTitle": "Memoria y respeto",
-        "paragraphs": ["El calendario describe esta fecha como un ritual de conexión con los ancestros y respeto por la tierra.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    },
-    {
-      "slug": "diciembre",
-      "name": "Diciembre",
-      "intro": "Cierra el año con tradiciones de luz y esperanza.",
-      "events": [{
-        "id": "diciembre-poqoy-raimy-killa",
-        "title": "Poqoy Raimy Killa",
-        "summary": "Celebración del retorno de la luz y la esperanza para el nuevo ciclo.",
-        "location": "Cusco y comunidades",
-        "image": "assets/img/image_box_3/diciembre_12.jpg",
-        "imageAlt": "Paisaje del calendario tradicional de diciembre",
-        "intro": "Poqoy Raimy Killa es la celebración que el calendario cusqueño presenta para diciembre.",
-        "sectionTitle": "Luz y nuevo ciclo",
-        "paragraphs": ["La tradición celebra el retorno de la luz y la esperanza para el nuevo ciclo.", "Las fechas y actividades pueden variar de acuerdo con la comunidad."],
-        "highlightTitle": "Celebración del mes",
-        "highlight": "Consulta con la comunidad local para confirmar las actividades y fechas de cada año."
-      }]
-    }
-  ]
+    "month":  "Enero",
+    "year":  "Cada año",
+    "intro":  "Vive nuestras tradiciones, recuerda nuestra cultura.",
+    "events":  [
+                   {
+                       "id":  "santa-maria-madre-de-dios",
+                       "day":  "01",
+                       "title":  "Fiesta solemnidad de Santa María Madre de Dios – Día Mundial de la Paz",
+                       "summary":  "Una de las celebraciones más importantes del mes, que reúne a fieles de todo el Cusco y provincias, para pedir por la paz y el bienestar.",
+                       "location":  "Cusco y provincias",
+                       "image":  "assets/img/image_box_3/enero_01.png",
+                       "imageAlt":  "Celebración tradicional andina en Cusco",
+                       "intro":  "La festividad de Santa María Madre de Dios, celebrada cada 1 de enero, es una de las más importantes del calendario cusqueño. Esta fecha también conmemora el Día Mundial de la Paz, un mensaje de esperanza, unión y fraternidad para todos los pueblos.",
+                       "sectionTitle":  "¿Qué se celebra?",
+                       "paragraphs":  [
+                                          "Se rinde homenaje a la Virgen María, madre de Jesús, en su advocación de Madre de Dios, reconociendo su papel como guía espiritual y símbolo de paz. Durante esta festividad, se realizan misas solemnes, procesiones y diversas actividades religiosas y culturales en la ciudad del Cusco y en distintas provincias de la región.",
+                                          "Además, al coincidir con el Día Mundial de la Paz, se promueve un mensaje de reconciliación, solidaridad y respeto entre todos los pueblos."
+                                      ],
+                       "highlightTitle":  "Dato importante",
+                       "highlight":  "Esta celebración reúne a miles de fieles que participan con devoción y alegría, fortaleciendo nuestras tradiciones y la identidad cusqueña."
+                   },
+                   {
+                       "id":  "senor-del-cabildo",
+                       "day":  "02",
+                       "title":  "Fiesta del Señor del Cabildo",
+                       "summary":  "Tradición que se celebra en las parroquias Santa Ana y San Pedro, en la ciudad del Cusco.",
+                       "location":  "Cusco, distritos y provincias",
+                       "image":  "assets/img/hero/2.png",
+                       "imageAlt":  "Templo histórico de piedra en Cusco",
+                       "intro":  "La fiesta del Señor del Cabildo forma parte de las celebraciones religiosas cusqueñas del inicio de año. Vecinos y devotos se reúnen en las parroquias de Santa Ana y San Pedro para mantener viva esta tradición.",
+                       "sectionTitle":  "Una tradición cusqueña",
+                       "paragraphs":  [
+                                          "Las actividades religiosas y comunitarias convocan a familias de distintos barrios. La celebración es una oportunidad para compartir la fe y reencontrarse con las costumbres locales.",
+                                          "Las parroquias de Santa Ana y San Pedro son parte del recorrido por el centro histórico y sus barrios tradicionales."
+                                      ],
+                       "highlightTitle":  "Dónde participar",
+                       "highlight":  "La festividad se celebra en las parroquias Santa Ana y San Pedro, en la ciudad del Cusco."
+                   },
+                   {
+                       "id":  "dulce-nombre-de-jesus",
+                       "day":  "02",
+                       "title":  "Fiesta del Señor Dulce Nombre de Jesús",
+                       "summary":  "Se celebra en la parroquia Santa Ana y San Sebastián, además de diversos distritos y provincias del Cusco.",
+                       "location":  "Cusco, distritos y provincias",
+                       "image":  "assets/img/image_box_3/enero_01.png",
+                       "imageAlt":  "Tradición religiosa y cultural de Cusco",
+                       "intro":  "El 2 de enero, comunidades de Cusco celebran la fiesta del Señor Dulce Nombre de Jesús con actividades de carácter religioso y cultural.",
+                       "sectionTitle":  "Fe y comunidad",
+                       "paragraphs":  [
+                                          "La celebración convoca a devotos en la parroquia Santa Ana y en San Sebastián. También se vive en distintos distritos y provincias, donde cada comunidad conserva sus propias expresiones y costumbres.",
+                                          "Es una ocasión para compartir en comunidad y conocer la diversidad de las fiestas tradicionales cusqueñas."
+                                      ],
+                       "highlightTitle":  "Celebración local",
+                       "highlight":  "Las actividades pueden variar según la parroquia y la comunidad que organiza la festividad."
+                   },
+                   {
+                       "id":  "santos-reyes-magos",
+                       "day":  "06",
+                       "title":  "Adoración de los Santos Reyes Magos: Melchor, Gaspar y Baltasar",
+                       "summary":  "En honor a Melchor, Gaspar y Baltazar, con celebraciones en el Cusco, distritos y provincias.",
+                       "location":  "Cusco, distritos y provincias",
+                       "image":  "assets/img/image_box_3/enero_01.png",
+                       "imageAlt":  "Celebración tradicional en los Andes del Cusco",
+                       "intro":  "Cada 6 de enero, la adoración de los Santos Reyes Magos reúne a familias y comunidades en una de las fechas más queridas de la tradición cristiana.",
+                       "sectionTitle":  "Una celebración para compartir",
+                       "paragraphs":  [
+                                          "En honor a Melchor, Gaspar y Baltazar, se realizan celebraciones religiosas y encuentros comunitarios en la ciudad del Cusco, sus distritos y provincias.",
+                                          "Las costumbres locales dan un carácter especial a esta fecha y mantienen viva la participación de las familias."
+                                      ],
+                       "highlightTitle":  "Fecha de celebración",
+                       "highlight":  "La festividad se celebra el 6 de enero en distintas localidades de Cusco."
+                   },
+                   {
+                       "id":  "senor-de-pampamarca",
+                       "day":  "14",
+                       "title":  "Fiesta del Señor de Pampamarca",
+                       "summary":  "Se celebra en la provincia de Canas, Cusco y otras provincias.",
+                       "location":  "Pampamarca, provincia de Canas; Cusco y provincias",
+                       "image":  "assets/img/hero/3.jpeg",
+                       "imageAlt":  "Paisaje de montañas y andenes en los Andes",
+                       "intro":  "La fiesta del Señor de Pampamarca se celebra el 14 de enero en la provincia de Canas y convoca a devotos de distintas localidades.",
+                       "sectionTitle":  "Tradición en Canas",
+                       "paragraphs":  [
+                                          "La celebración reúne expresiones de fe y costumbres propias de las comunidades andinas. También participan visitantes de Cusco y de otras provincias.",
+                                          "Pampamarca ofrece un paisaje altoandino que acompaña esta fecha de encuentro y devoción."
+                                      ],
+                       "highlightTitle":  "Ubicación",
+                       "highlight":  "La festividad tiene como centro la provincia de Canas, en la región Cusco."
+                   },
+                   {
+                       "id":  "san-antonio-abad",
+                       "day":  "17",
+                       "title":  "Fiesta de San Antonio Abad",
+                       "summary":  "Una celebración tradicional en la ciudad del Cusco.",
+                       "location":  "Cusco",
+                       "image":  "assets/img/image_box_3/enero_01.png",
+                       "imageAlt":  "Fiesta tradicional con participación de la comunidad cusqueña",
+                       "intro":  "La ciudad del Cusco celebra a San Antonio Abad cada 17 de enero, en una jornada que forma parte de su calendario tradicional.",
+                       "sectionTitle":  "Devoción y tradición",
+                       "paragraphs":  [
+                                          "La festividad convoca a vecinos y devotos en torno a actividades religiosas y expresiones culturales propias de la ciudad.",
+                                          "Como en otras fiestas cusqueñas, la participación de la comunidad ayuda a transmitir estas costumbres entre generaciones."
+                                      ],
+                       "highlightTitle":  "En la ciudad del Cusco",
+                       "highlight":  "La celebración se realiza el 17 de enero."
+                   },
+                   {
+                       "id":  "virgen-belen-san-sebastian",
+                       "day":  "20",
+                       "title":  "Fiesta de Nuestra Señora de Belén y patrón San Sebastián; fiesta patronal del Pera Cha’pchi",
+                       "summary":  "Celebración patronal del Pera Cha’pchi, con gran devoción en Cusco y distritos.",
+                       "location":  "Cusco y distritos",
+                       "image":  "assets/img/image_box_3/enero_01.png",
+                       "imageAlt":  "Devoción y tradición en una festividad cusqueña",
+                       "intro":  "El 20 de enero, la fiesta de Nuestra Señora de Belén y del Patrón San Sebastián convoca a sus devotos en Cusco y distintos distritos.",
+                       "sectionTitle":  "Celebración patronal",
+                       "paragraphs":  [
+                                          "La festividad patronal del Pera Cha’pchi se vive con especial devoción y reúne a la comunidad en actividades religiosas y culturales.",
+                                          "Cada localidad aporta sus propias costumbres a esta fecha significativa del calendario de enero."
+                                      ],
+                       "highlightTitle":  "Tradición que reúne",
+                       "highlight":  "La celebración se comparte en Cusco y sus distritos."
+                   }
+               ],
+    "otherMonths":  [
+                        {
+                            "slug":  "febrero",
+                            "name":  "Febrero",
+                            "intro":  "February - Jatun Poqoy Killa. Conoce las tradiciones cusqueñas de febrero.",
+                            "events":  [
+                                           {
+                                               "id":  "febrero-dia-nacional-del-pisco-sour",
+                                               "day":  "01",
+                                               "title":  "Día Nacional del Pisco Sour",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/febrero_02.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Febrero",
+                                               "intro":  "El calendario registra esta celebración para 01 de febrero, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 01 de febrero.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "01 de febrero — Cusco."
+                                           },
+                                           {
+                                               "id":  "febrero-fiesta-de-la-virgen-de-la-candelaria",
+                                               "day":  "02",
+                                               "title":  "Fiesta de la Virgen de la Candelaria",
+                                               "summary":  "Celebración en Puno, Cusco y provincias.",
+                                               "location":  "Puno, Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/febrero_02.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Febrero",
+                                               "intro":  "El calendario registra esta celebración para 02 de febrero, en Puno, Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 02 de febrero.",
+                                                                  "Lugar: Puno, Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "02 de febrero — Puno, Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "febrero-dia-del-amor-la-amistad-y-de-los-enamorados",
+                                               "day":  "14",
+                                               "title":  "Día del amor, la amistad y de los enamorados",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/febrero_02.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Febrero",
+                                               "intro":  "El calendario registra esta celebración para 14 de febrero, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 14 de febrero.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "14 de febrero — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "febrero-dia-de-los-compadres",
+                                               "day":  "20",
+                                               "title":  "Día de los compadres",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/febrero_02.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Febrero",
+                                               "intro":  "El calendario registra esta celebración para 20 de febrero, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 20 de febrero.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "20 de febrero — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "febrero-fiesta-del-senor-de-la-sentencia-catedral-y-parroquia-de-santiago",
+                                               "day":  "26",
+                                               "title":  "Fiesta del Señor de la Sentencia, Catedral y parroquia de Santiago",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/febrero_02.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Febrero",
+                                               "intro":  "El calendario registra esta celebración para 26 de febrero, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 26 de febrero.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "26 de febrero — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "febrero-fiesta-de-las-comadres",
+                                               "day":  "Fecha movible",
+                                               "title":  "Fiesta de las comadres",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/febrero_02.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Febrero",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de febrero, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de febrero.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de febrero — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "February - Jatun Poqoy Killa"
+                        },
+                        {
+                            "slug":  "marzo",
+                            "name":  "Marzo",
+                            "intro":  "March - Pauqar Waray Killa. Celebraciones de renovación y florecimiento en Cusco.",
+                            "events":  [
+                                           {
+                                               "id":  "marzo-fiesta-de-los-carnavales-puchero-thi-mpu-yunza-y-qhashua",
+                                               "day":  "Fecha movible",
+                                               "title":  "Fiesta de los carnavales: puchero (thi’mpu), yunza y qhashua",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/marzo_03.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Marzo",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de marzo, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de marzo.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de marzo — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "marzo-celebracion-de-la-fiesta-de-la-ceniza",
+                                               "day":  "Fecha movible",
+                                               "title":  "Celebración de la fiesta de la ceniza",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/marzo_03.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Marzo",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de marzo, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de marzo.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de marzo — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "marzo-fiesta-del-senor-de-la-sentencia-catedral-y-parroquia-de-santiago",
+                                               "day":  "07",
+                                               "title":  "Fiesta del Señor de la Sentencia, Catedral y parroquia de Santiago",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/marzo_03.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Marzo",
+                                               "intro":  "El calendario registra esta celebración para 07 de marzo, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 07 de marzo.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "07 de marzo — Cusco."
+                                           },
+                                           {
+                                               "id":  "marzo-fiesta-de-san-jose-esposo-de-la-virgen-maria-dia-de-los-casados",
+                                               "day":  "19",
+                                               "title":  "Fiesta de San José, esposo de la Virgen María; Día de los casados",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/marzo_03.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Marzo",
+                                               "intro":  "El calendario registra esta celebración para 19 de marzo, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 19 de marzo.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "19 de marzo — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "marzo-cuarto-domingo-de-pascua-dia-nacional-de-la-papa",
+                                               "day":  "Fecha movible",
+                                               "title":  "Cuarto domingo de Pascua: Día Nacional de la Papa",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/marzo_03.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Marzo",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de marzo, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de marzo.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de marzo — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "March - Pauqar Waray Killa"
+                        },
+                        {
+                            "slug":  "abril",
+                            "name":  "Abril",
+                            "intro":  "April - Ayriwuay Killa. Tradiciones de agradecimiento por los frutos de la tierra.",
+                            "events":  [
+                                           {
+                                               "id":  "abril-domingo-de-ramos-bendicion-de-palmas-y-procesion-en-la-catedral-y-parroquias",
+                                               "day":  "Fecha movible",
+                                               "title":  "Domingo de Ramos: bendición de palmas y procesión en la Catedral y parroquias",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/abril_04.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Abril",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de abril, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de abril.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de abril — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "abril-lunes-santo-procesion-del-senor-de-los-temblores-en-la-ciudad-del-cusco",
+                                               "day":  "Fecha movible",
+                                               "title":  "Lunes Santo: procesión del Señor de los Temblores en la ciudad del Cusco",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/abril_04.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Abril",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de abril, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de abril.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de abril — Cusco."
+                                           },
+                                           {
+                                               "id":  "abril-jueves-santo-inicio-del-triduo-pascual-y-visita-a-templos-y-parroquias-donde-se-expone-el-santisimo-sacramento",
+                                               "day":  "Fecha movible",
+                                               "title":  "Jueves Santo: inicio del Triduo Pascual y visita a templos y parroquias donde se expone el Santísimo Sacramento",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/abril_04.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Abril",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de abril, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de abril.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de abril — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "abril-viernes-santo-adoracion-de-la-cruz-ayuno-y-abstinencia-colecta-para-tierra-santa-y-procesion-del-santo-sepulcro",
+                                               "day":  "Fecha movible",
+                                               "title":  "Viernes Santo: adoración de la cruz, ayuno y abstinencia, colecta para Tierra Santa y procesión del Santo Sepulcro",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/abril_04.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Abril",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de abril, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de abril.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de abril — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "abril-sabado-santo-vigilia-pascual",
+                                               "day":  "Fecha movible",
+                                               "title":  "Sábado Santo: Vigilia Pascual",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/abril_04.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Abril",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de abril, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de abril.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de abril — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "abril-pascua-de-resurreccion-e-indulgencia-plenaria-en-la-catedral",
+                                               "day":  "Fecha movible",
+                                               "title":  "Pascua de Resurrección e indulgencia plenaria en la Catedral",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/abril_04.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Abril",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de abril, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de abril.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de abril — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "April - Ayriwuay Killa"
+                        },
+                        {
+                            "slug":  "mayo",
+                            "name":  "Mayo",
+                            "intro":  "May - Aymuray Killa. Un mes para conocer las tradiciones de abundancia y naturaleza.",
+                            "events":  [
+                                           {
+                                               "id":  "mayo-dia-internacional-del-trabajo-y-celebracion-de-nuestra-senora-de-chapi",
+                                               "day":  "01",
+                                               "title":  "Día Internacional del Trabajo y celebración de Nuestra Señora de Chapi",
+                                               "summary":  "Celebración en Arequipa, Cusco y provincias.",
+                                               "location":  "Arequipa, Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/mayo_05.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Mayo",
+                                               "intro":  "El calendario registra esta celebración para 01 de mayo, en Arequipa, Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 01 de mayo.",
+                                                                  "Lugar: Arequipa, Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "01 de mayo — Arequipa, Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "mayo-fiesta-tradicional-de-las-cruces-cruz-velakuy",
+                                               "day":  "02",
+                                               "title":  "Fiesta tradicional de las Cruces (Cruz Velakuy)",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/mayo_05.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Mayo",
+                                               "intro":  "El calendario registra esta celebración para 02 de mayo, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 02 de mayo.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "02 de mayo — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "mayo-dia-de-la-madre-visita-a-los-cementerios-y-celebracion-familiar",
+                                               "day":  "Fecha movible (segundo domingo)",
+                                               "title":  "Día de la Madre, visita a los cementerios y celebración familiar",
+                                               "summary":  "Celebración en En todo el Perú.",
+                                               "location":  "En todo el Perú",
+                                               "image":  "assets/img/image_box_3/mayo_05.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Mayo",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible (segundo domingo de mayo) de mayo, en En todo el Perú.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible (segundo domingo de mayo) de mayo.",
+                                                                  "Lugar: En todo el Perú."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible (segundo domingo de mayo) de mayo — En todo el Perú."
+                                           },
+                                           {
+                                               "id":  "mayo-celebracion-de-la-aparicion-de-la-virgen-de-fatima",
+                                               "day":  "13",
+                                               "title":  "Celebración de la aparición de la Virgen de Fátima",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/mayo_05.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Mayo",
+                                               "intro":  "El calendario registra esta celebración para 13 de mayo, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 13 de mayo.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "13 de mayo — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "mayo-dia-mundial-de-los-museos-y-aniversario-del-martirologio-de-tupac-amaru",
+                                               "day":  "18",
+                                               "title":  "Día Mundial de los Museos y aniversario del martirologio de Túpac Amaru",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/mayo_05.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Mayo",
+                                               "intro":  "El calendario registra esta celebración para 18 de mayo, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 18 de mayo.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "18 de mayo — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "May - Aymuray Killa"
+                        },
+                        {
+                            "slug":  "junio",
+                            "name":  "Junio",
+                            "intro":  "June - Qhapaq Inti killa Raymy. Vive las celebraciones cusqueñas dedicadas al Sol.",
+                            "events":  [
+                                           {
+                                               "id":  "junio-pentecostes-aniversario-del-senor-de-torrechayoc-chokequillca-y-las-cruces-de-pentecostes",
+                                               "day":  "Fecha movible",
+                                               "title":  "Pentecostés, aniversario del Señor de Torrechayoc, Chokequillca y las cruces de Pentecostés",
+                                               "summary":  "Celebración en Urubamba, Ollantaytambo y Yucay, Valle Sagrado de los Incas.",
+                                               "location":  "Urubamba, Ollantaytambo y Yucay, Valle Sagrado de los Incas",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de junio, en Urubamba, Ollantaytambo y Yucay, Valle Sagrado de los Incas.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de junio.",
+                                                                  "Lugar: Urubamba, Ollantaytambo y Yucay, Valle Sagrado de los Incas."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de junio — Urubamba, Ollantaytambo y Yucay, Valle Sagrado de los Incas."
+                                           },
+                                           {
+                                               "id":  "junio-santisima-trinidad-dia-de-la-cancion-andina-dia-del-padre-y-festival-folclorico-de-raqchi",
+                                               "day":  "15",
+                                               "title":  "Santísima Trinidad, Día de la Canción Andina, Día del Padre y Festival Folclórico de Raqchi",
+                                               "summary":  "Celebración en Cusco y provincias; Raqchi, San Pedro, Canchis.",
+                                               "location":  "Cusco y provincias; Raqchi, San Pedro, Canchis",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para 15 de junio, en Cusco y provincias; Raqchi, San Pedro, Canchis.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 15 de junio.",
+                                                                  "Lugar: Cusco y provincias; Raqchi, San Pedro, Canchis."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "15 de junio — Cusco y provincias; Raqchi, San Pedro, Canchis."
+                                           },
+                                           {
+                                               "id":  "junio-escenificacion-de-la-leyenda-de-los-hermanos-ayar-en-pacarectambo-y-festival-de-k-anamarca-en-espinar",
+                                               "day":  "Fecha movible",
+                                               "title":  "Escenificación de la leyenda de los hermanos Ayar en Pacarectambo y Festival de K’anamarca en Espinar",
+                                               "summary":  "Celebración en Pacarectambo y Espinar.",
+                                               "location":  "Pacarectambo y Espinar",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de junio, en Pacarectambo y Espinar.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de junio.",
+                                                                  "Lugar: Pacarectambo y Espinar."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de junio — Pacarectambo y Espinar."
+                                           },
+                                           {
+                                               "id":  "junio-festividad-del-senor-de-qoylloritti",
+                                               "day":  "Fecha movible",
+                                               "title":  "Festividad del Señor de Qoylloritti",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de junio, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de junio.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de junio — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "junio-entrada-de-corpus-christi-reunion-de-los-santos-en-torno-al-templo-de-santa-clara-y-la-catedral-del-cusco",
+                                               "day":  "Fecha movible",
+                                               "title":  "Entrada de Corpus Christi: reunión de los santos en torno al templo de Santa Clara y la Catedral del Cusco",
+                                               "summary":  "Celebración en Cusco y distritos.",
+                                               "location":  "Cusco y distritos",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de junio, en Cusco y distritos.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de junio.",
+                                                                  "Lugar: Cusco y distritos."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de junio — Cusco y distritos."
+                                           },
+                                           {
+                                               "id":  "junio-natividad-de-san-juan-bautista-dia-del-cusco-y-del-campesino-y-escenificacion-del-inti-raymi-en-sacsayhuaman",
+                                               "day":  "24",
+                                               "title":  "Natividad de San Juan Bautista, Día del Cusco y del Campesino, y escenificación del Inti Raymi en Sacsayhuamán",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para 24 de junio, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 24 de junio.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "24 de junio — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "junio-octava-de-corpus-christi-despedida-de-los-santos-en-la-plaza-de-armas-del-cusco",
+                                               "day":  "Fecha movible, 26",
+                                               "title":  "Octava de Corpus Christi: despedida de los santos en la Plaza de Armas del Cusco",
+                                               "summary":  "Celebración en Cusco y distritos.",
+                                               "location":  "Cusco y distritos",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible, 26 de junio, en Cusco y distritos.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible, 26 de junio.",
+                                                                  "Lugar: Cusco y distritos."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible, 26 de junio — Cusco y distritos."
+                                           },
+                                           {
+                                               "id":  "junio-solemnidad-del-sagrado-corazon-de-jesus",
+                                               "day":  "Fecha movible",
+                                               "title":  "Solemnidad del Sagrado Corazón de Jesús",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de junio, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de junio.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de junio — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "junio-celebracion-de-san-pedro-y-san-pablo-en-el-templo-de-san-pedro-y-fiesta-patronal-de-andahuaylillas",
+                                               "day":  "29",
+                                               "title":  "Celebración de San Pedro y San Pablo en el templo de San Pedro y fiesta patronal de Andahuaylillas",
+                                               "summary":  "Celebración en Cusco y provincias; Andahuaylillas, Quispicanchi.",
+                                               "location":  "Cusco y provincias; Andahuaylillas, Quispicanchi",
+                                               "image":  "assets/img/image_box_3/junio_06.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Junio",
+                                               "intro":  "El calendario registra esta celebración para 29 de junio, en Cusco y provincias; Andahuaylillas, Quispicanchi.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 29 de junio.",
+                                                                  "Lugar: Cusco y provincias; Andahuaylillas, Quispicanchi."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "29 de junio — Cusco y provincias; Andahuaylillas, Quispicanchi."
+                                           }
+                                       ],
+                            "traditionalName":  "June - Qhapaq Inti killa Raymy"
+                        },
+                        {
+                            "slug":  "julio",
+                            "name":  "Julio",
+                            "intro":  "July - Chaqra Qonakuy Killa. Conoce las costumbres agrícolas andinas de julio.",
+                            "events":  [
+                                           {
+                                               "id":  "julio-nuestra-senora-del-carmen-en-la-provincia-de-paucartambo-y-templo-de-santa-ana",
+                                               "day":  "16",
+                                               "title":  "Nuestra Señora del Carmen en la provincia de Paucartambo y templo de Santa Ana",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/julio_07.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Julio",
+                                               "intro":  "El calendario registra esta celebración para 16 de julio, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 16 de julio.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "16 de julio — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "julio-solemnidad-del-apostol-santiago-en-la-parroquia-de-santiago-cusco",
+                                               "day":  "25",
+                                               "title":  "Solemnidad del apóstol Santiago en la parroquia de Santiago, Cusco",
+                                               "summary":  "Celebración en Cusco, distritos y provincias.",
+                                               "location":  "Cusco, distritos y provincias",
+                                               "image":  "assets/img/image_box_3/julio_07.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Julio",
+                                               "intro":  "El calendario registra esta celebración para 25 de julio, en Cusco, distritos y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 25 de julio.",
+                                                                  "Lugar: Cusco, distritos y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "25 de julio — Cusco, distritos y provincias."
+                                           },
+                                           {
+                                               "id":  "julio-san-joaquin-y-santa-ana-padres-de-la-virgen-maria-corpus-en-santa-ana-y-dia-de-los-abuelos",
+                                               "day":  "26",
+                                               "title":  "San Joaquín y Santa Ana, padres de la Virgen María; Corpus en Santa Ana y Día de los Abuelos",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/julio_07.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Julio",
+                                               "intro":  "El calendario registra esta celebración para 26 de julio, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 26 de julio.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "26 de julio — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "julio-dia-de-la-independencia-nacional-del-peru",
+                                               "day":  "Lunes 28",
+                                               "title":  "Día de la Independencia Nacional del Perú",
+                                               "summary":  "Celebración en En todo el Perú.",
+                                               "location":  "En todo el Perú",
+                                               "image":  "assets/img/image_box_3/julio_07.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Julio",
+                                               "intro":  "El calendario registra esta celebración para Lunes 28 de julio, en En todo el Perú.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Lunes 28 de julio.",
+                                                                  "Lugar: En todo el Perú."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Lunes 28 de julio — En todo el Perú."
+                                           },
+                                           {
+                                               "id":  "julio-dia-de-san-ignacio-de-loyola-fundador-de-la-compania-de-jesus",
+                                               "day":  "Jueves 31",
+                                               "title":  "Día de San Ignacio de Loyola, fundador de la Compañía de Jesús",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/julio_07.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Julio",
+                                               "intro":  "El calendario registra esta celebración para Jueves 31 de julio, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Jueves 31 de julio.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Jueves 31 de julio — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "July - Chaqra Qonakuy Killa"
+                        },
+                        {
+                            "slug":  "agosto",
+                            "name":  "Agosto",
+                            "intro":  "August - Chaqra Yapuy Tarpuy Qilla. Tradiciones vinculadas al cuidado de la tierra y los cultivos.",
+                            "events":  [
+                                           {
+                                               "id":  "agosto-corpus-christi-de-la-parroquia-de-san-cristobal",
+                                               "day":  "Fecha movible",
+                                               "title":  "Corpus Christi de la parroquia de San Cristóbal",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/agosto_08.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Agosto",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de agosto, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de agosto.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de agosto — Cusco."
+                                           },
+                                           {
+                                               "id":  "agosto-celebracion-de-nuestra-senora-de-las-nieves-en-tinta-canchis",
+                                               "day":  "05",
+                                               "title":  "Celebración de Nuestra Señora de las Nieves en Tinta, Canchis",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/agosto_08.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Agosto",
+                                               "intro":  "El calendario registra esta celebración para 05 de agosto, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 05 de agosto.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "05 de agosto — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "agosto-celebracion-de-la-virgen-de-la-asunta",
+                                               "day":  "15",
+                                               "title":  "Celebración de la Virgen de la Asunta",
+                                               "summary":  "Celebración en Calca, Qoya, T’iobamba (Maras), Oropesa, Colquepata, Pilpintoy (Incakona) y Tantarqosqo (Paruro); Cusco y provincias.",
+                                               "location":  "Calca, Qoya, T’iobamba (Maras), Oropesa, Colquepata, Pilpintoy (Incakona) y Tantarqosqo (Paruro); Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/agosto_08.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Agosto",
+                                               "intro":  "El calendario registra esta celebración para 15 de agosto, en Calca, Qoya, T’iobamba (Maras), Oropesa, Colquepata, Pilpintoy (Incakona) y Tantarqosqo (Paruro); Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 15 de agosto.",
+                                                                  "Lugar: Calca, Qoya, T’iobamba (Maras), Oropesa, Colquepata, Pilpintoy (Incakona) y Tantarqosqo (Paruro); Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "15 de agosto — Calca, Qoya, T’iobamba (Maras), Oropesa, Colquepata, Pilpintoy (Incakona) y Tantarqosqo (Paruro); Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "agosto-celebracion-de-san-bernardo-abad-y-fiesta-patronal-del-colegio-nacional-de-ciencias",
+                                               "day":  "20",
+                                               "title":  "Celebración de San Bernardo Abad y fiesta patronal del Colegio Nacional de Ciencias",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/agosto_08.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Agosto",
+                                               "intro":  "El calendario registra esta celebración para 20 de agosto, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 20 de agosto.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "20 de agosto — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "agosto-dia-mundial-del-folklore",
+                                               "day":  "22",
+                                               "title":  "Día Mundial del Folklore",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/agosto_08.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Agosto",
+                                               "intro":  "El calendario registra esta celebración para 22 de agosto, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 22 de agosto.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "22 de agosto — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "agosto-celebracion-de-san-bartolome-patrono-del-distrito-de-cachis-tinta",
+                                               "day":  "24",
+                                               "title":  "Celebración de San Bartolomé, patrono del distrito de Cachis, Tinta",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/agosto_08.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Agosto",
+                                               "intro":  "El calendario registra esta celebración para 24 de agosto, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 24 de agosto.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "24 de agosto — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "agosto-celebracion-de-santa-rosa-de-lima",
+                                               "day":  "30",
+                                               "title":  "Celebración de Santa Rosa de Lima",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/agosto_08.png",
+                                               "imageAlt":  "Imagen representativa de las festividades de Agosto",
+                                               "intro":  "El calendario registra esta celebración para 30 de agosto, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 30 de agosto.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "30 de agosto — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "August - Chaqra Yapuy Tarpuy Qilla"
+                        },
+                        {
+                            "slug":  "septiembre",
+                            "name":  "Septiembre",
+                            "intro":  "September - Qoya Raymu Hawkay Killa. Danzas, cosecha y fertilidad de la tierra en las tradiciones de septiembre.",
+                            "events":  [
+                                           {
+                                               "id":  "septiembre-celebracion-de-la-virgen-de-la-natividad-en-almudena-y-nuestra-senora-de-los-remedios",
+                                               "day":  "08",
+                                               "title":  "Celebración de la Virgen de la Natividad en Almudena y Nuestra Señora de los Remedios",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/septiembre_09.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Septiembre",
+                                               "intro":  "El calendario registra esta celebración para 08 de septiembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 08 de septiembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "08 de septiembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "septiembre-fiesta-del-senor-de-huanca-en-san-salvador-calca-y-del-senor-de-la-exaltacion-en-mollepata-anta",
+                                               "day":  "14",
+                                               "title":  "Fiesta del Señor de Huanca en San Salvador, Calca, y del Señor de la Exaltación en Mollepata, Anta",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/septiembre_09.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Septiembre",
+                                               "intro":  "El calendario registra esta celebración para 14 de septiembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 14 de septiembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "14 de septiembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "septiembre-fiesta-de-nuestra-senora-de-los-dolores",
+                                               "day":  "15",
+                                               "title":  "Fiesta de Nuestra Señora de los Dolores",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/septiembre_09.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Septiembre",
+                                               "intro":  "El calendario registra esta celebración para 15 de septiembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 15 de septiembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "15 de septiembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "septiembre-fiesta-de-nuestra-senora-de-las-mercedes",
+                                               "day":  "24",
+                                               "title":  "Fiesta de Nuestra Señora de las Mercedes",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/septiembre_09.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Septiembre",
+                                               "intro":  "El calendario registra esta celebración para 24 de septiembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 24 de septiembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "24 de septiembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "septiembre-dia-internacional-del-turismo",
+                                               "day":  "27",
+                                               "title":  "Día Internacional del Turismo",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/septiembre_09.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Septiembre",
+                                               "intro":  "El calendario registra esta celebración para 27 de septiembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 27 de septiembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "27 de septiembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "septiembre-festividad-del-senor-del-consuelo-en-el-templo-de-santa-clara-cusco",
+                                               "day":  "28",
+                                               "title":  "Festividad del Señor del Consuelo en el templo de Santa Clara, Cusco",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/septiembre_09.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Septiembre",
+                                               "intro":  "El calendario registra esta celebración para 28 de septiembre, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 28 de septiembre.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "28 de septiembre — Cusco."
+                                           },
+                                           {
+                                               "id":  "septiembre-celebracion-del-patron-de-san-jeronimo-y-corpus-christi-en-la-parroquia-de-san-jeronimo",
+                                               "day":  "30",
+                                               "title":  "Celebración del patrón de San Jerónimo y Corpus Christi en la parroquia de San Jerónimo",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/septiembre_09.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Septiembre",
+                                               "intro":  "El calendario registra esta celebración para 30 de septiembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 30 de septiembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "30 de septiembre — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "September - Qoya Raymu Hawkay Killa"
+                        },
+                        {
+                            "slug":  "octubre",
+                            "name":  "Octubre",
+                            "intro":  "October - Unu Raimy Amay Killa. Descubre la tradición del maíz en el calendario de octubre.",
+                            "events":  [
+                                           {
+                                               "id":  "octubre-fiesta-de-san-francisco-de-asis",
+                                               "day":  "04",
+                                               "title":  "Fiesta de San Francisco de Asís",
+                                               "summary":  "Celebración en Cusco y Maras; Cusco y provincias.",
+                                               "location":  "Cusco y Maras; Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/octubre_10.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Octubre",
+                                               "intro":  "El calendario registra esta celebración para 04 de octubre, en Cusco y Maras; Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 04 de octubre.",
+                                                                  "Lugar: Cusco y Maras; Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "04 de octubre — Cusco y Maras; Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "octubre-celebracion-de-nuestra-senora-del-pilar",
+                                               "day":  "12",
+                                               "title":  "Celebración de Nuestra Señora del Pilar",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/octubre_10.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Octubre",
+                                               "intro":  "El calendario registra esta celebración para 12 de octubre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 12 de octubre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "12 de octubre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "octubre-inicio-de-la-novena-del-senor-de-los-temblores-patron-jurado-del-cusco",
+                                               "day":  "17",
+                                               "title":  "Inicio de la novena del Señor de los Temblores, patrón jurado del Cusco",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/octubre_10.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Octubre",
+                                               "intro":  "El calendario registra esta celebración para 17 de octubre, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 17 de octubre.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "17 de octubre — Cusco."
+                                           },
+                                           {
+                                               "id":  "octubre-fiesta-del-senor-de-los-milagros",
+                                               "day":  "18",
+                                               "title":  "Fiesta del Señor de los Milagros",
+                                               "summary":  "Celebración en Lima, Cusco y provincias.",
+                                               "location":  "Lima, Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/octubre_10.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Octubre",
+                                               "intro":  "El calendario registra esta celebración para 18 de octubre, en Lima, Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 18 de octubre.",
+                                                                  "Lugar: Lima, Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "18 de octubre — Lima, Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "octubre-celebracion-del-senor-de-los-temblores-en-la-basilica-catedral-del-cusco",
+                                               "day":  "Fecha movible",
+                                               "title":  "Celebración del Señor de los Temblores en la Basílica Catedral del Cusco",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/octubre_10.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Octubre",
+                                               "intro":  "El calendario registra esta celebración para Fecha movible de octubre, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: Fecha movible de octubre.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "Fecha movible de octubre — Cusco."
+                                           },
+                                           {
+                                               "id":  "octubre-dia-de-la-cancion-criolla",
+                                               "day":  "31",
+                                               "title":  "Día de la Canción Criolla",
+                                               "summary":  "Celebración en En todo el Perú.",
+                                               "location":  "En todo el Perú",
+                                               "image":  "assets/img/image_box_3/octubre_10.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Octubre",
+                                               "intro":  "El calendario registra esta celebración para 31 de octubre, en En todo el Perú.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 31 de octubre.",
+                                                                  "Lugar: En todo el Perú."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "31 de octubre — En todo el Perú."
+                                           }
+                                       ],
+                            "traditionalName":  "October - Unu Raimy Amay Killa"
+                        },
+                        {
+                            "slug":  "noviembre",
+                            "name":  "Noviembre",
+                            "intro":  "November - Aya Marqay Amaque Killa. Un tiempo de memoria, respeto y conexión con los ancestros.",
+                            "events":  [
+                                           {
+                                               "id":  "noviembre-fiesta-de-todos-los-santos",
+                                               "day":  "01",
+                                               "title":  "Fiesta de Todos los Santos",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/noviembre_11.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Noviembre",
+                                               "intro":  "El calendario registra esta celebración para 01 de noviembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 01 de noviembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "01 de noviembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "noviembre-dia-de-los-santos-difuntos-y-visita-a-los-cementerios",
+                                               "day":  "02",
+                                               "title":  "Día de los Santos Difuntos y visita a los cementerios",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/noviembre_11.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Noviembre",
+                                               "intro":  "El calendario registra esta celebración para 02 de noviembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 02 de noviembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "02 de noviembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "noviembre-conmemoracion-de-la-revolucion-de-tupac-amaru",
+                                               "day":  "04",
+                                               "title":  "Conmemoración de la revolución de Túpac Amaru",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/noviembre_11.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Noviembre",
+                                               "intro":  "El calendario registra esta celebración para 04 de noviembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 04 de noviembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "04 de noviembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "noviembre-primer-domingo-de-adviento-en-parroquias-y-templos",
+                                               "day":  "30",
+                                               "title":  "Primer domingo de Adviento en parroquias y templos",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/noviembre_11.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Noviembre",
+                                               "intro":  "El calendario registra esta celebración para 30 de noviembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 30 de noviembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "30 de noviembre — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "November - Aya Marqay Amaque Killa"
+                        },
+                        {
+                            "slug":  "diciembre",
+                            "name":  "Diciembre",
+                            "intro":  "December - Poqoy Raimy Killa. Cierra el año con tradiciones de luz y esperanza.",
+                            "events":  [
+                                           {
+                                               "id":  "diciembre-celebracion-de-la-virgen-de-la-inmaculada-concepcion",
+                                               "day":  "08",
+                                               "title":  "Celebración de la Virgen de la Inmaculada Concepción",
+                                               "summary":  "Celebración en Cusco, provincia de Anta; Cusco y provincias.",
+                                               "location":  "Cusco, provincia de Anta; Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/diciembre_12.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Diciembre",
+                                               "intro":  "El calendario registra esta celebración para 08 de diciembre, en Cusco, provincia de Anta; Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 08 de diciembre.",
+                                                                  "Lugar: Cusco, provincia de Anta; Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "08 de diciembre — Cusco, provincia de Anta; Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "diciembre-inicio-de-la-setena-para-la-navidad",
+                                               "day":  "17",
+                                               "title":  "Inicio de la Setena para la Navidad",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/diciembre_12.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Diciembre",
+                                               "intro":  "El calendario registra esta celebración para 17 de diciembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 17 de diciembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "17 de diciembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "diciembre-feria-del-santurantikuy",
+                                               "day":  "24",
+                                               "title":  "Feria del Santurantikuy",
+                                               "summary":  "Celebración en Cusco.",
+                                               "location":  "Cusco",
+                                               "image":  "assets/img/image_box_3/diciembre_12.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Diciembre",
+                                               "intro":  "El calendario registra esta celebración para 24 de diciembre, en Cusco.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 24 de diciembre.",
+                                                                  "Lugar: Cusco."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "24 de diciembre — Cusco."
+                                           },
+                                           {
+                                               "id":  "diciembre-natividad-de-nuestro-senor-jesucristo",
+                                               "day":  "25",
+                                               "title":  "Natividad de Nuestro Señor Jesucristo",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/diciembre_12.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Diciembre",
+                                               "intro":  "El calendario registra esta celebración para 25 de diciembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 25 de diciembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "25 de diciembre — Cusco y provincias."
+                                           },
+                                           {
+                                               "id":  "diciembre-fiesta-de-la-sagrada-familia-de-maria-y-jose-y-dia-de-los-santos-inocentes",
+                                               "day":  "28",
+                                               "title":  "Fiesta de la Sagrada Familia de María y José y Día de los Santos Inocentes",
+                                               "summary":  "Celebración en Cusco y provincias.",
+                                               "location":  "Cusco y provincias",
+                                               "image":  "assets/img/image_box_3/diciembre_12.jpg",
+                                               "imageAlt":  "Imagen representativa de las festividades de Diciembre",
+                                               "intro":  "El calendario registra esta celebración para 28 de diciembre, en Cusco y provincias.",
+                                               "sectionTitle":  "Fecha y lugar",
+                                               "paragraphs":  [
+                                                                  "Fecha: 28 de diciembre.",
+                                                                  "Lugar: Cusco y provincias."
+                                                              ],
+                                               "highlightTitle":  "Información de la celebración",
+                                               "highlight":  "28 de diciembre — Cusco y provincias."
+                                           }
+                                       ],
+                            "traditionalName":  "December - Poqoy Raimy Killa"
+                        }
+                    ]
 }
