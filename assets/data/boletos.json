@@ -92,7 +92,7 @@
       "eyebrow": "Boleto turístico parcial",
       "title": "Circuito II",
       "subtitle": "Explora museos, sitios históricos y espacios culturales del Cusco moderno y su entorno.",
-      "validity": "1 día",
+      "validity": "2 días",
       "destination": "Cusco",
       "accessSummary": "8 atractivos turísticos",
       "heroImage": "assets/img/image_box_2/box_2.jpeg",
@@ -103,20 +103,20 @@
         { "src": "assets/img/image_box_1/6.jpg", "alt": "Andenes y paisaje andino" }
       ],
       "placesTitle": "Lugares incluidos",
-      "description": "Combina espacios culturales de la ciudad con complejos arqueológicos y paisajes del Valle Sur:",
+      "description": "Este boleto tiene una validez de 02 días y da derecho de ingreso a los siguientes lugares:",
       "places": [
-        "Museo Casa del Inca Garcilaso",
+        "Museo Casa del Inca Garcilaso de la Vega",
         "Museo de arte contemporáneo",
         "Museo de arte popular",
         "Museo de sitio del Qoricancha",
         "Centro Qosqo de arte nativo",
         "Monumento al Inca Pachacutec",
-        "Parque arqueológico de Tipón",
-        "Parque arqueológico de Pikillacta"
+        "Tipón – templo del agua",
+        "Parque arqueológico de Pikillaqta"
       ],
       "ticketTypes": [
-        { "name": "Nacional", "icon": "fa-user", "foreign": "S/ 70.00", "national": "S/ 70.00", "validity": "1 día" },
-        { "name": "Estudiante", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "1 día" }
+        { "name": "Nacional", "icon": "fa-user", "foreign": "S/ 70.00", "national": "S/ 70.00", "validity": "2 días" },
+        { "name": "Estudiante", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "2 días" }
       ],
       "calloutTitle": "Cultura y arqueología en un solo recorrido",
       "calloutText": "Dedica tiempo a los museos de Cusco y continúa tu visita por el fascinante Valle Sur.",
@@ -133,7 +133,7 @@
       "eyebrow": "Boleto turístico parcial",
       "title": "Circuito III",
       "subtitle": "Viaja por los paisajes y centros arqueológicos más representativos del Valle Sagrado.",
-      "validity": "1 día",
+      "validity": "2 días",
       "destination": "Valle Sagrado",
       "accessSummary": "4 atractivos turísticos",
       "heroImage": "assets/img/image_box_2/box_3.png",
@@ -144,16 +144,16 @@
         { "src": "assets/img/hero/3.jpeg", "alt": "Montañas de la región Cusco" }
       ],
       "placesTitle": "Lugares incluidos",
-      "description": "Descubre la arquitectura, agricultura y legado de las comunidades incas del Valle Sagrado:",
+      "description": "Este boleto tiene una validez de 02 días y permite visitar los atractivos turísticos ubicados en el Valle Sagrado de los Incas, como:",
       "places": [
         "Parque arqueológico de Pisac",
-        "Parque arqueológico de Ollantaytambo",
-        "Parque arqueológico de Chinchero",
-        "Parque arqueológico de Moray"
+        "Ollantaytambo – ciudad inca viviente",
+        "Chinchero",
+        "Moray"
       ],
       "ticketTypes": [
-        { "name": "Nacional", "icon": "fa-user", "foreign": "S/ 70.00", "national": "S/ 70.00", "validity": "1 día" },
-        { "name": "Estudiante", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "1 día" }
+        { "name": "Nacional", "icon": "fa-user", "foreign": "S/ 70.00", "national": "S/ 70.00", "validity": "2 días" },
+        { "name": "Estudiante", "icon": "fa-graduation-cap", "foreign": "S/ 40.00", "national": "S/ 40.00", "validity": "2 días" }
       ],
       "calloutTitle": "¡El Valle Sagrado te espera!",
       "calloutText": "Conecta con paisajes increíbles y la historia viva de los pueblos del Valle Sagrado.",

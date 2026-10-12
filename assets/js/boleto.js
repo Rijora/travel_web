@@ -8,6 +8,37 @@
   var siteHeader = document.querySelector('.ticket-site-header');
   var menuButton = document.querySelector('.ticket-site-header .navbar-toggle');
   var menu = document.querySelector('.ticket-site-header .onepage-menu');
+  var languageSelector = document.querySelector('.ticket-site-header .header__lang');
+  var languageToggle = languageSelector && languageSelector.querySelector(':scope > a');
+  var languageList = languageSelector && languageSelector.querySelector('.header__lang_box');
+
+  function closeLanguageMenu() {
+    if (!languageSelector || !languageToggle || !languageList) return;
+    languageSelector.classList.remove('is-open');
+    languageToggle.setAttribute('aria-expanded', 'false');
+    languageList.style.display = 'none';
+  }
+
+  if (languageSelector && languageToggle && languageList) {
+    languageToggle.setAttribute('aria-haspopup', 'true');
+    languageToggle.setAttribute('aria-expanded', 'false');
+    languageToggle.addEventListener('click', function (event) {
+      event.preventDefault();
+      var isOpen = !languageSelector.classList.contains('is-open');
+      languageSelector.classList.toggle('is-open', isOpen);
+      languageToggle.setAttribute('aria-expanded', String(isOpen));
+      languageList.style.display = isOpen ? 'block' : 'none';
+    });
+    languageList.addEventListener('click', function (event) {
+      if (event.target.closest('a[data-google-lang]')) closeLanguageMenu();
+    });
+    document.addEventListener('click', function (event) {
+      if (!languageSelector.contains(event.target)) closeLanguageMenu();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeLanguageMenu();
+    });
+  }
 
   function closeMenu() {
     if (!menuButton || !menu) return;

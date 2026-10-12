@@ -36,6 +36,11 @@ button {
   background: #edf4f5;
 }
 
+.ticket-site-header .header__lang_box {
+  display: none;
+  z-index: 20;
+}
+
 .circuitos-page {
   min-height: 0;
 }

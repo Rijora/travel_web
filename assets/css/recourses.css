@@ -591,18 +591,70 @@ body {
   line-height: 1.6;
 }
 
-.experience-showcase__grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 24px;
+.experience-showcase__slider {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 32px;
 }
 
+.experience-showcase__slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+.experience-showcase__slider .swiper-slide {
+  height: auto;
+}
+
+.experience-showcase__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.experience-showcase__controls .swiper-button-prev-custom,
+.experience-showcase__controls .swiper-button-next-custom {
+  position: static;
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid rgba(14, 114, 128, 0.35);
+  border-radius: 50%;
+  background: #fff;
+  color: #0e7280;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.experience-showcase__controls .swiper-button-prev-custom:hover,
+.experience-showcase__controls .swiper-button-next-custom:hover {
+  background: #0e7280;
+  color: #fff;
+}
+
+.experience-showcase__controls .swiper-button-disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+
+.experience-showcase__controls .swiper-pagination-custom {
+  width: auto;
+  margin: 0;
+}
+
+.experience-showcase__controls .swiper-pagination-bullet {
+  margin: 0 8px;
+}
+
 .experience-card {
   position: relative;
   min-height: 390px;
+  height: 390px;
   overflow: hidden;
   border-radius: 26px 26px 22px 22px;
   box-shadow: 0 14px 28px rgba(14, 42, 49, 0.08);
@@ -697,12 +749,6 @@ body {
   font-size: 26px;
 }
 
-@media (max-width: 1200px) {
-  .experience-showcase__grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
 @media (max-width: 767px) {
   .experience-showcase {
     padding-top: 28px;
@@ -725,12 +771,12 @@ body {
     font-size: 0.9rem;
   }
 
-  .experience-showcase__grid {
-    grid-template-columns: 1fr;
+  .experience-showcase__slider {
     padding: 0 18px;
   }
 
   .experience-card {
+    height: 320px;
     min-height: 320px;
   }
 }
@@ -870,7 +916,7 @@ body {
   border-radius: 12px;
   border: 1px solid rgba(63, 232, 255, 0.9);
   background: rgba(7, 154, 170, 0.8);
-  color: #fff;
+  color: #fff !important;
   font-weight: 700;
   text-decoration: none;
   transition: transform 0.2s ease, background-color 0.2s ease;
@@ -1080,4 +1126,3 @@ body {
     min-height: 0;
   }
 }
-
