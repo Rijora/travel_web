@@ -1240,13 +1240,21 @@
                 </div>
               </div>
 
-              <a href="destination.html" class="reference-banner__cta">
-                <span class="reference-banner__cta-icon"
-                  ><i class="fa fa-map-marker"></i
-                ></span>
-                Ver nuestros destinos
-                <i class="fa fa-arrow-right"></i>
-              </a>
+              <form class="reference-banner__form" action="boleto.html" method="get">
+                <select class="reference-banner__select" name="circuito" aria-label="Selecciona un boleto">
+                  <option value="integral">Boleto integral</option>
+                  <option value="circuito-i">Circuito I</option>
+                  <option value="circuito-ii">Circuito II</option>
+                  <option value="circuito-iii">Circuito III</option>
+                </select>
+                <button type="submit" class="reference-banner__cta">
+                  <span class="reference-banner__cta-icon"
+                    ><i class="fa fa-map-marker"></i
+                  ></span>
+                  Ver boleto
+                  <i class="fa fa-arrow-right"></i>
+                </button>
+              </form>
             </div>
           </div>
 
