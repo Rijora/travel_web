@@ -256,7 +256,7 @@ body {
   padding: 0 22px;
   border-radius: 28px;
   background: #07859a;
-  color: #fff;
+  color: #fff !important;
   font-size: 14px;
   text-decoration: none;
   transition: background-color 0.2s ease, transform 0.2s ease;
@@ -907,6 +907,30 @@ body {
   line-height: 1.3;
 }
 
+.reference-banner__form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.reference-banner__select {
+  min-width: 180px;
+  height: 50px;
+  padding: 0 18px;
+  border: 1px solid rgba(63, 232, 255, 0.9);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+}
+
+.reference-banner__select option {
+  color: #143d4b;
+}
+
 .reference-banner__cta {
   display: inline-flex;
   align-items: center;
@@ -919,6 +943,7 @@ body {
   color: #fff !important;
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 

@@ -191,40 +191,68 @@ button {
 .circuitos-gallery {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 14px 14px 18px;
-  border-top: 1px solid rgba(11, 71, 90, 0.08);
-  background: rgba(255,255,255,0.9);
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 18px 12px;
+  margin-top: 16px;
+  background: rgba(235, 238, 239, 0.9);
+  border-radius: 26px;
+  box-shadow: inset 0 0 0 1px rgba(16, 71, 89, 0.04);
 }
 .circuitos-gallery .arrow-btn {
-  width: 32px;
-  height: 32px;
-  border: 1px solid rgba(11, 71, 90, 0.18);
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border: 1px solid rgba(10, 90, 100, 0.12);
   border-radius: 50%;
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.9);
   color: var(--ticket-deep);
-  font-size: 22px;
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#prevBtn {
+  background: #c5edf1;
+  border-color: rgba(12, 102, 118, 0.08);
+}
+#nextBtn {
+  background: rgba(255,255,255,0.85);
+}
+.circuitos-gallery .arrow-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(15, 65, 81, 0.1);
 }
 .circuitos-thumbs {
   display: flex;
   align-items: center;
-  gap: 12px;
+  justify-content: center;
+  gap: 14px;
   flex: 1;
   min-width: 0;
 }
 .circuitos-thumb {
-  width: 98px;
-  height: 82px;
+  width: 114px;
+  height: 88px;
+  flex-shrink: 0;
   border: 2px solid transparent;
-  border-radius: 10px;
+  border-radius: 18px;
   overflow: hidden;
   background: #dfecee;
   padding: 0;
   cursor: pointer;
+  box-shadow: 0 6px 14px rgba(8, 30, 37, 0.08);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.circuitos-thumb:hover {
+  transform: translateY(-1px);
 }
 .circuitos-thumb.active {
-  border-color: var(--ticket-teal);
+  border-color: #9adbe5;
+  box-shadow: 0 0 0 3px rgba(96, 184, 198, 0.18), 0 8px 18px rgba(8, 30, 37, 0.1);
 }
 .circuitos-thumb img {
   width: 100%;
@@ -234,19 +262,24 @@ button {
 .circuitos-dots {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  padding-top: 10px;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
 }
 .circuitos-dots .dot {
   width: 12px;
   height: 12px;
+  border: none;
   border-radius: 50%;
   background: #d7e8eb;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 .circuitos-dots .dot.active {
-  background: var(--ticket-teal);
-  box-shadow: 0 0 0 3px rgba(12, 123, 142, 0.12);
+  width: 20px;
+  border-radius: 999px;
+  background: #9adbe5;
+  box-shadow: 0 0 0 3px rgba(94, 181, 196, 0.12);
 }
 
 .circuitos-info-card {

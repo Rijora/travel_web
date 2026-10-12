@@ -94,10 +94,42 @@
     return 'https://wa.me/' + encodeURIComponent(phone) + '?text=' + encodeURIComponent(message);
   }
 
+  function resolvePlaceIcon(place, index) {
+    var normalized = String(place || '').toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    var iconMap = {
+      'museo casa del inca garcilaso de la vega': '1_icon.png',
+      'museo de arte contemporaneo': '2_icon.png',
+      'museo de arte popular': '1_icon.png',
+      'museo de sitio del qoricancha': '3_icon.png',
+      'centro qosqo de arte nativo': '4_icon.png',
+      'monumento al inca pachacutec': '5_icon.png',
+      'complejo arqueologico de sacsayhuaman': '6_icon.png',
+      'complejo arqueologico de qengo': '11_icon.png',
+      'complejo de puca pucara fortaleza roja': '7_icon.png',
+      'tambomachay baños del inca': '8_icon.png',
+      'parque arqueologico de pisac': '10_icon.png',
+      'ollantaytambo ciudad inca viviente': '11_icon.png',
+      'chinchero': '12_icon.png',
+      'moray': '13_icon.png',
+      'tipon templo del agua': '14_icon.png',
+      'parque arqueologico de pikillacta': '15_icon.png'
+    };
+
+    var fallbackIcons = ['1_icon.png', '2_icon.png', '1_icon.png', '3_icon.png', '4_icon.png', '5_icon.png', '6_icon.png', '11_icon.png', '7_icon.png', '8_icon.png', '10_icon.png', '11_icon.png', '12_icon.png', '13_icon.png', '14_icon.png', '15_icon.png'];
+
+    return 'assets/svg/' + (iconMap[normalized] || fallbackIcons[index % fallbackIcons.length]);
+  }
+
   function renderPlaces(places) {
     return places.map(function (place, index) {
-      var icon = index < 6 ? 'fa-university' : 'fa-picture-o';
-      return '<li><i class="fa ' + icon + '" aria-hidden="true"></i><span>' + escapeHtml(place) + '</span></li>';
+      var icon = resolvePlaceIcon(place, index);
+      return '<li><img src="' + escapeHtml(icon) + '" alt="" aria-hidden="true" /><span>' + escapeHtml(place) + '</span></li>';
     }).join('');
   }
 
