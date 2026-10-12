@@ -26,6 +26,10 @@ a {
   background: rgba(4, 47, 57, 0.28);
   transition: background-color 0.25s ease, box-shadow 0.25s ease;
 }
+.ticket-site-header .header__lang_box {
+  display: none;
+  z-index: 20;
+}
 .ticket-site-header.is-scroll {
   background: rgba(4, 47, 57, 0.97);
   box-shadow: 0 3px 20px rgba(0, 31, 39, 0.2);

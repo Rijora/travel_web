@@ -4,8 +4,39 @@
   var app = document.getElementById('tour-app');
   var dataUrl = 'assets/data/tours.json';
   var allowedImage = /^(https:\/\/images\.unsplash\.com\/|assets\/img\/[a-zA-Z0-9_./-]+$)/;
+  var languageSelector = document.querySelector('.tour-site-header .header__lang');
+  var languageToggle = languageSelector && languageSelector.querySelector(':scope > a');
+  var languageList = languageSelector && languageSelector.querySelector('.header__lang_box');
   var menuButton = document.querySelector('.tour-site-header .navbar-toggle');
   var menu = document.querySelector('.tour-site-header .onepage-menu');
+
+  function closeLanguageMenu() {
+    if (!languageSelector || !languageToggle || !languageList) return;
+    languageSelector.classList.remove('is-open');
+    languageToggle.setAttribute('aria-expanded', 'false');
+    languageList.style.display = 'none';
+  }
+
+  if (languageSelector && languageToggle && languageList) {
+    languageToggle.setAttribute('aria-haspopup', 'true');
+    languageToggle.setAttribute('aria-expanded', 'false');
+    languageToggle.addEventListener('click', function (event) {
+      event.preventDefault();
+      var isOpen = !languageSelector.classList.contains('is-open');
+      languageSelector.classList.toggle('is-open', isOpen);
+      languageToggle.setAttribute('aria-expanded', String(isOpen));
+      languageList.style.display = isOpen ? 'block' : 'none';
+    });
+    languageList.addEventListener('click', function (event) {
+      if (event.target.closest('a[data-google-lang]')) closeLanguageMenu();
+    });
+    document.addEventListener('click', function (event) {
+      if (!languageSelector.contains(event.target)) closeLanguageMenu();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeLanguageMenu();
+    });
+  }
 
   function closeMenu() {
     if (!menuButton || !menu) return;
@@ -60,6 +91,11 @@
     }).join('');
   }
 
+  function detailSection(title, items, icon) {
+    if (!Array.isArray(items) || !items.length) return '';
+    return '<section class="tour-detail-section"><h3>' + escapeHtml(title) + '</h3><ul class="tour-check-list">' + listItems(items, icon) + '</ul></section>';
+  }
+
   function renderTour(tour) {
     var contact = tour.contact || {};
     var gallery = Array.isArray(tour.gallery) ? tour.gallery.slice(0, 3) : [];
@@ -74,6 +110,10 @@
       var icons = ['fa fa-globe', 'fa fa-cutlery', 'fa fa-users'];
       return '<div class="tour-benefit"><i class="' + icons[index % icons.length] + '" aria-hidden="true"></i><strong>' + escapeHtml(item) + '</strong><span>' + escapeHtml(benefitDescriptions[index] || '') + '</span></div>';
     }).join('');
+    var policies = (tour.importantNotes || []).slice();
+    if (tour.cancellationPolicy) policies.unshift('Política de cancelación: ' + tour.cancellationPolicy);
+    var bookingInstructions = detailSection('Cómo reservar', tour.bookingInstructions, 'fa-check');
+    var policyDetails = detailSection('Información importante', policies, 'fa-info-circle');
     var whatsapp = String(contact.whatsapp || '').replace(/[^0-9]/g, '');
 
     app.innerHTML = '<header class="tour-hero" style="--tour-hero-image:url(\'' + escapeHtml(imagePath(tour.heroImage)) + '\')">' +
@@ -81,9 +121,9 @@
       '<div class="tour-hero__copy"><span class="tour-eyebrow"><i class="fa fa-compass" aria-hidden="true"></i>' + escapeHtml(tour.category || 'Experiencia') + '</span><h1>' + escapeHtml(tour.title) + '</h1><p>' + escapeHtml(tour.heroSubtitle || tour.location) + '</p>' +
       '<div class="tour-hero__facts"><span><i class="fa fa-calendar" aria-hidden="true"></i><small>Duración<strong>' + escapeHtml(tour.duration) + '</strong></small></span><span><i class="fa fa-map-marker" aria-hidden="true"></i><small>Destino<strong>' + escapeHtml(tour.location) + '</strong></small></span><span><i class="fa fa-users" aria-hidden="true"></i><small>Tipo<strong>' + escapeHtml(tour.type) + '</strong></small></span></div></div></div></header>' +
       '<section class="tour-content"><div class="tour-main"><div class="tour-about"><span class="tour-kicker"><i class="fa fa-certificate" aria-hidden="true"></i> Sobre el tour</span><h2>' + escapeHtml(tour.title) + '</h2><p>' + escapeHtml(tour.summary) + '</p>' +
-      '<aside class="tour-note"><i class="fa fa-calendar-check-o" aria-hidden="true"></i><p>' + escapeHtml(tour.notice) + '</p></aside><h3 class="tour-section-title">' + escapeHtml(tour.itineraryTitle || 'Itinerario') + '</h3><ol class="tour-timeline">' + itinerary + '</ol></div>' +
+      '<aside class="tour-note"><i class="fa fa-calendar-check-o" aria-hidden="true"></i><p>' + escapeHtml(tour.notice) + '</p></aside><h3 class="tour-section-title">' + escapeHtml(tour.itineraryTitle || 'Itinerario') + '</h3><ol class="tour-timeline">' + itinerary + '</ol>' + policyDetails + bookingInstructions + '</div>' +
       '<div class="tour-gallery">' + photos + '</div><aside class="tour-booking"><span class="tour-booking__label">Precio desde</span><div class="tour-price"><span>$</span>' + escapeHtml(tour.price) + ' <small>' + escapeHtml(tour.currency || 'USD') + '</small></div><a class="tour-booking__button" href="https://wa.me/' + escapeHtml(whatsapp) + '?text=' + encodeURIComponent('Hola, quiero reservar el tour: ' + tour.title) + '" target="_blank" rel="noopener"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Reservar este tour</a>' +
-      '<ul class="tour-facts"><li><i class="fa fa-calendar" aria-hidden="true"></i><span><b>Duración:</b> ' + escapeHtml(tour.duration) + '</span></li><li><i class="fa fa-clock-o" aria-hidden="true"></i><span><b>Salida:</b> Consulta horarios disponibles</span></li><li><i class="fa fa-users" aria-hidden="true"></i><span><b>Tipo:</b> ' + escapeHtml(tour.type) + '</span></li></ul>' +
+      '<ul class="tour-facts"><li><i class="fa fa-calendar" aria-hidden="true"></i><span><b>Duración:</b> ' + escapeHtml(tour.duration) + '</span></li><li><i class="fa fa-clock-o" aria-hidden="true"></i><span><b>Salida:</b> ' + escapeHtml(tour.departureSchedule || 'Consulta horarios disponibles') + '</span></li><li><i class="fa fa-users" aria-hidden="true"></i><span><b>Tipo:</b> ' + escapeHtml(tour.type) + '</span></li>' + (tour.minimumParticipants ? '<li><i class="fa fa-user-plus" aria-hidden="true"></i><span><b>Mínimo:</b> ' + escapeHtml(tour.minimumParticipants) + '</span></li>' : '') + '</ul>' +
       '<h3>Incluye</h3><ul class="tour-check-list">' + listItems(tour.included, 'fa-check') + '</ul><h3>No incluye</h3><ul class="tour-check-list tour-check-list--excluded">' + listItems(tour.notIncluded, 'fa-times') + '</ul></aside></div>' +
       '<section class="tour-benefits" aria-label="Lo que hace especial este tour">' + highlights + '<div class="tour-benefit"><i class="fa fa-map-marker" aria-hidden="true"></i><strong>' + escapeHtml(tour.location) + '</strong><span>' + escapeHtml(tour.locationDescription || '') + '</span></div></section>' +
       '<section class="tour-extras"><div class="tour-advice"><h2><i class="fa fa-suitcase" aria-hidden="true"></i> Recomendaciones antes del tour</h2><h3>¿Qué llevar?</h3><ul class="tour-check-list">' + listItems(tour.recommendations, 'fa-check') + '</ul></div>' +

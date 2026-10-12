@@ -23,9 +23,40 @@
     buyButton: document.querySelector('.circuitos-buy')
   };
   var siteHeader = document.querySelector('.ticket-site-header');
+  var languageSelector = siteHeader && siteHeader.querySelector('.header__lang');
+  var languageToggle = languageSelector && languageSelector.querySelector(':scope > a');
+  var languageList = languageSelector && languageSelector.querySelector('.header__lang_box');
 
   function updateHeaderOnScroll() {
     if (siteHeader) siteHeader.classList.toggle('is-scroll', window.scrollY > 40);
+  }
+
+  function closeLanguageSelector() {
+    if (!languageSelector || !languageToggle || !languageList) return;
+    languageSelector.classList.remove('is-open');
+    languageToggle.setAttribute('aria-expanded', 'false');
+    languageList.style.display = 'none';
+  }
+
+  if (languageSelector && languageToggle && languageList) {
+    languageToggle.setAttribute('aria-haspopup', 'true');
+    languageToggle.setAttribute('aria-expanded', 'false');
+    languageToggle.addEventListener('click', function (event) {
+      event.preventDefault();
+      var isOpen = !languageSelector.classList.contains('is-open');
+      languageSelector.classList.toggle('is-open', isOpen);
+      languageToggle.setAttribute('aria-expanded', String(isOpen));
+      languageList.style.display = isOpen ? 'block' : 'none';
+    });
+    languageSelector.querySelectorAll('.header__lang_box a').forEach(function (link) {
+      link.addEventListener('click', closeLanguageSelector);
+    });
+    document.addEventListener('click', function (event) {
+      if (!languageSelector.contains(event.target)) closeLanguageSelector();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeLanguageSelector();
+    });
   }
 
   updateHeaderOnScroll();

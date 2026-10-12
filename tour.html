@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/tour-detail.css" />
+    <script src="assets/vendors/_jquery/jquery.min.js"></script>
+    <script src="assets/js/translate.js"></script>
     <script src="assets/js/tour-detail.js" defer></script>
   </head>
   <body>
@@ -39,9 +41,35 @@
               </div>
             </div>
             <div class="header__hotline_book_wrap">
-              <div class="header__hotline">
-                <span><i class="fa fa-phone" aria-hidden="true"></i> Línea directa</span>
-                <a href="tel:+51993651223">993 651 223</a>
+              <div class="header__lang notranslate" translate="no">
+                <a href="#"><span class="notranslate" translate="no">ES</span><i class="fa fa-angle-down"></i></a>
+                <ul class="header__lang_box">
+                  <li>
+                    <a href="#" data-google-lang="es"
+                      ><img src="assets/img/flag/flag_pe.svg" alt="" /><span class="notranslate" translate="no">ES</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-google-lang="en"
+                      ><img src="assets/img/flag/flag_en.jpg" alt="" /><span>EN</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-google-lang="pt"
+                      ><img src="assets/img/flag/flag_pt.svg" alt="" /><span>PT</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-google-lang="fr"
+                      ><img src="assets/img/flag/flag_fr.svg" alt="" /><span>FR</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+                <div class="header__hotline">
+                <span class="txt_aling_start"
+                  ><i class="fa fa-phone"></i>Línea directa</span
+                ><a href="#">993651223 - 971186810 </a>
               </div>
               <div class="header__booking">
                 <a class="md-btn md-btn--primary md-btn--pill" href="contact.html">RESERVA AHORA</a>

@@ -27,6 +27,10 @@ a {
   z-index: 1000;
   background: linear-gradient(180deg, rgba(5, 35, 45, 0.42), transparent);
 }
+.tour-site-header .header__lang_box {
+  display: none;
+  z-index: 20;
+}
 .tour-site-header.is-scroll {
   background: rgba(5, 35, 45, 0.97);
 }
@@ -239,6 +243,17 @@ a {
   color: #45687b;
   font-size: 11px;
   line-height: 1.55;
+}
+.tour-detail-section {
+  margin-top: 18px;
+}
+.tour-detail-section h3 {
+  margin: 0 0 8px;
+  color: #123c56;
+  font-size: 13px;
+}
+.tour-detail-section .tour-check-list {
+  gap: 8px;
 }
 .tour-gallery {
   display: grid;
