@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="42" viewBox="0 0 76 42">
+  <defs>
+    <pattern id="andean" width="38" height="28" patternUnits="userSpaceOnUse">
+      <rect width="38" height="28" fill="#007C8A"/>
+      <g fill="#32C2C7">
+        <path d="M0 14 6 7 12 14 6 21Z M12 14 19 5 26 14 19 23Z M26 14 32 7 38 14 32 21Z"/>
+        <path d="M6 0 10 4 6 8 2 4Z M32 0 36 4 32 8 28 4Z M6 20 10 24 6 28 2 24Z M32 20 36 24 32 28 28 24Z" fill="#003D4D"/>
+        <path d="M15 0h8v3h-8z M15 25h8v3h-8z" fill="#76D9D9"/>
+      </g>
+      <path d="M0 0H38V28H0Z" stroke="#004D5C" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="76" height="42" fill="#003D4D"/>
+  <rect y="4" width="76" height="34" fill="url(#andean)"/>
+  <path d="M0 1H76M0 40H76" stroke="#00D0D4" stroke-width="2"/>
+  <path d="M0 3H76M0 39H76" stroke="#006A78"/>
+</svg>
