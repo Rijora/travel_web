@@ -14,9 +14,10 @@
       "heroImage": "assets/img/hero/2.png",
       "heroAlt": "Arquitectura histórica de Cusco",
       "gallery": [
-        { "src": "assets/img/hero/2.png", "alt": "Arquitectura histórica de Cusco" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Paisaje andino de Cusco" },
-        { "src": "assets/img/hero/3.jpeg", "alt": "Paisaje de los Andes" }
+        {
+          "src": "assets/img/image_box_1/box_1.jpg",
+          "alt": "Arquitectura histórica de Cusco"
+        }
       ],
       "summary": "Una experiencia por el centro histórico, el Qoricancha, la calle Hatun Rumiyoq, el barrio de San Blas, una picantería tradicional y el Centro Qosqo de Arte Nativo. El recorrido permite conocer las tradiciones, la gastronomía y las expresiones artísticas de Cusco.",
       "notice": "Salidas todos los días por la mañana a las 09:00 y por la tarde a las 13:00. El documento fuente indica que el precio no incluye impuestos y puede no aplicar en feriados o fechas importantes.",
@@ -29,20 +30,59 @@
         "Visita a una picantería tradicional para conocer su historia y probar el Chiriuchu o un plato similar.",
         "Por la tarde, visita al Centro Qosqo de Arte Nativo y sus danzas y música tradicionales; el espectáculo dura aproximadamente dos horas."
       ],
-      "highlights": ["Patrimonio de Cusco", "Gastronomía tradicional", "Música y danzas"],
-      "benefitDescriptions": ["Qoricancha, Hatun Rumiyoq y San Blas", "Visita a una picantería tradicional", "Presentación en el Centro Qosqo de Arte Nativo"],
+      "highlights": [
+        "Patrimonio de Cusco",
+        "Gastronomía tradicional",
+        "Música y danzas"
+      ],
+      "benefitDescriptions": [
+        "Qoricancha, Hatun Rumiyoq y San Blas",
+        "Visita a una picantería tradicional",
+        "Presentación en el Centro Qosqo de Arte Nativo"
+      ],
       "locationDescription": "Centro histórico, barrio de San Blas y espacios culturales de Cusco.",
-      "included": ["Guía profesional bilingüe (inglés y español).", "Plato de Chiriuchu o similar."],
-      "notIncluded": ["El documento fuente menciona los ingresos tanto como incluidos como no incluidos; confirma este punto antes de reservar.", "Alimentación adicional, bebidas y servicios no mencionados.", "Alojamiento en Cusco.", "Transporte."],
-      "recommendations": ["Documento original de identificación.", "Gorra o sombrero y ropa adecuada.", "Dinero en efectivo en moneda nacional.", "Cámara fotográfica y cargador.", "Zapatos adecuados para la excursión.", "Caramelos de coca para el mal de altura.", "Casaca cortaviento, lentes de sol y ropa impermeable durante la temporada de lluvias.", "Medicamentos o artículos personales."],
+      "included": [
+        "Guía profesional bilingüe (inglés y español).",
+        "Plato de Chiriuchu o similar."
+      ],
+      "notIncluded": [
+        "El documento fuente menciona los ingresos tanto como incluidos como no incluidos; confirma este punto antes de reservar.",
+        "Alimentación adicional, bebidas y servicios no mencionados.",
+        "Alojamiento en Cusco.",
+        "Transporte."
+      ],
+      "recommendations": [
+        "Documento original de identificación.",
+        "Gorra o sombrero y ropa adecuada.",
+        "Dinero en efectivo en moneda nacional.",
+        "Cámara fotográfica y cargador.",
+        "Zapatos adecuados para la excursión.",
+        "Caramelos de coca para el mal de altura.",
+        "Casaca cortaviento, lentes de sol y ropa impermeable durante la temporada de lluvias.",
+        "Medicamentos o artículos personales."
+      ],
       "importantNotes": [
         "El texto fuente también lista alimentación como no incluida, aunque incluye un plato de Chiriuchu o similar; confirma con el operador qué comida está cubierta.",
         "La operación puede depender de la disponibilidad del operador ante condiciones climáticas adversas; la fuente indica que en ese caso no hay reembolso.",
         "La fuente establece una penalidad del 100% para cancelaciones realizadas hasta con 7 días de anticipación."
       ],
       "cancellationPolicy": "La fuente indica cancelaciones hasta 7 días antes con una penalidad del 100% del precio del tour.",
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union y MoneyGram.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union y MoneyGram.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente indica confirmación en 48 horas. Las transferencias de Izipay pueden tardar aproximadamente 24 horas (o hasta el lunes después del mediodía si se realizan un viernes por la tarde o durante el fin de semana). Según la nota del operador, los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
@@ -66,9 +106,10 @@
       "heroImage": "assets/img/hero/2.png",
       "heroAlt": "Calles históricas de Cusco",
       "gallery": [
-        { "src": "assets/img/hero/2.png", "alt": "Calles históricas de Cusco" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Paisaje andino" },
-        { "src": "assets/img/hero/4.png", "alt": "Vista de Cusco" }
+        {
+          "src": "assets/img/image_box_1/box_2.jpg",
+          "alt": "Calles históricas de Cusco"
+        }
       ],
       "summary": "Un recorrido para acercarse a las tradiciones de Cusco, sus barrios, mercados y museos. La fuente presenta celebraciones como la Bajada de Reyes en San Blas, Ollantaytambo y la comunidad de Markju, cada una con su propia forma de celebración.",
       "notice": "El itinerario y el horario se coordinan según la disponibilidad del viajero y con el área correspondiente. El recojo del hotel se realiza solo a petición.",
@@ -79,16 +120,58 @@
         "Visita sugerida al Mercado Central de San Pedro y al monumento a Pachacútec.",
         "Entre los museos sugeridos figuran el Museo de Arte Popular, Museo Regional de Arte, Museo Inca, Museo Arzobispal y las catacumbas de San Francisco de Asís."
       ],
-      "highlights": ["Celebraciones cusqueñas", "Mercados y barrios", "Museos locales"],
-      "benefitDescriptions": ["Tradiciones como la Bajada de Reyes", "Observa la actividad cotidiana de la ciudad", "Lugares sugeridos en el itinerario"],
+      "highlights": [
+        "Celebraciones cusqueñas",
+        "Mercados y barrios",
+        "Museos locales"
+      ],
+      "benefitDescriptions": [
+        "Tradiciones como la Bajada de Reyes",
+        "Observa la actividad cotidiana de la ciudad",
+        "Lugares sugeridos en el itinerario"
+      ],
       "locationDescription": "Cusco y, según la celebración elegida, San Blas, Ollantaytambo o Markju.",
-      "included": ["Guía profesional bilingüe (español e inglés).", "Recojo del hotel únicamente a petición."],
-      "notIncluded": ["Ingresos.", "Alimentos y bebidas.", "Gastos y servicios adicionales.", "Seguro de viaje.", "Propinas."],
-      "recommendations": ["Dinero en efectivo en moneda local.", "Agua mineral.", "Protector solar y cámara fotográfica.", "Pasaporte original.", "Casaca abrigadora durante la temporada de lluvias.", "Kit de medicamentos personales.", "Si tienes una enfermedad cardíaca, consulta a tu médico e informa al operador sobre tu estado de salud."],
-      "importantNotes": ["El recorrido requiere coordinación previa.", "La fuente indica que los precios no incluyen impuestos."],
+      "included": [
+        "Guía profesional bilingüe (español e inglés).",
+        "Recojo del hotel únicamente a petición."
+      ],
+      "notIncluded": [
+        "Ingresos.",
+        "Alimentos y bebidas.",
+        "Gastos y servicios adicionales.",
+        "Seguro de viaje.",
+        "Propinas."
+      ],
+      "recommendations": [
+        "Dinero en efectivo en moneda local.",
+        "Agua mineral.",
+        "Protector solar y cámara fotográfica.",
+        "Pasaporte original.",
+        "Casaca abrigadora durante la temporada de lluvias.",
+        "Kit de medicamentos personales.",
+        "Si tienes una enfermedad cardíaca, consulta a tu médico e informa al operador sobre tu estado de salud."
+      ],
+      "importantNotes": [
+        "El recorrido requiere coordinación previa.",
+        "La fuente indica que los precios no incluyen impuestos."
+      ],
       "cancellationPolicy": "La fuente indica que se puede cancelar hasta 72 horas antes del viaje, con una penalidad del 100% del costo.",
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union y MoneyGram.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union y MoneyGram.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente indica confirmación en 48 horas. Las transferencias de Izipay pueden tardar aproximadamente 24 horas (o hasta el lunes después del mediodía si se realizan un viernes por la tarde o durante el fin de semana). Según la nota del operador, los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
@@ -112,9 +195,10 @@
       "heroImage": "assets/img/hero/2.png",
       "heroAlt": "Patrimonio histórico de Cusco",
       "gallery": [
-        { "src": "assets/img/hero/2.png", "alt": "Patrimonio histórico de Cusco" },
-        { "src": "assets/img/hero/4.png", "alt": "Paisaje de los Andes" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Vista panorámica de Cusco" }
+        {
+          "src": "assets/img/image_box_1/box_3.jpg",
+          "alt": "Patrimonio histórico de Cusco"
+        }
       ],
       "summary": "Cusco, antigua capital del Imperio inca, invita a recorrer sus calles y arquitectura. El tour visita el Qoricancha, conocido como el Templo del Sol, y los sitios arqueológicos de Sacsayhuamán, Q'enqo, Puca Pucara y Tambomachay.",
       "notice": "Salidas todos los días por la mañana y por la tarde. El precio publicado es desde USD 25.00.",
@@ -128,15 +212,55 @@
         "17:30 — Puca Pucara, sitio arqueológico asociado con el refugio de mensajeros y la guardia inca."
       ],
       "highlights": ["Qoricancha", "Sitios arqueológicos", "Guía bilingüe"],
-      "benefitDescriptions": ["Visita al Templo del Sol", "Sacsayhuamán, Q'enqo, Tambomachay y Puca Pucara", "Servicio guiado en inglés y español"],
+      "benefitDescriptions": [
+        "Visita al Templo del Sol",
+        "Sacsayhuamán, Q'enqo, Tambomachay y Puca Pucara",
+        "Servicio guiado en inglés y español"
+      ],
       "locationDescription": "Centro histórico de Cusco y complejos arqueológicos cercanos.",
-      "included": ["Traslados en bus turístico.", "Guiado en grupo por guía profesional en inglés y español."],
-      "notIncluded": ["Alimentación.", "Ingresos.", "Servicios no mencionados.", "Alojamiento en Cusco.", "Seguro."],
-      "recommendations": ["Ropa cómoda.", "Casaca cortaviento y lentes de sol.", "Protector solar y sombrero.", "Medicina o artículos de uso personal.", "Cámara fotográfica o filmadora.", "Dinero en soles.", "Ropa impermeable durante la temporada de lluvias.", "Caramelos o medicamento para el mal de altura."],
-      "importantNotes": ["La fuente señala que personas en estado de gestación no pueden realizar el tour.", "Si tienes una enfermedad cardíaca, consulta a tu médico e informa al operador.", "Ante condiciones climáticas adversas, la operación queda sujeta a disponibilidad; la fuente indica que no hay reembolso."],
+      "included": [
+        "Traslados en bus turístico.",
+        "Guiado en grupo por guía profesional en inglés y español."
+      ],
+      "notIncluded": [
+        "Alimentación.",
+        "Ingresos.",
+        "Servicios no mencionados.",
+        "Alojamiento en Cusco.",
+        "Seguro."
+      ],
+      "recommendations": [
+        "Ropa cómoda.",
+        "Casaca cortaviento y lentes de sol.",
+        "Protector solar y sombrero.",
+        "Medicina o artículos de uso personal.",
+        "Cámara fotográfica o filmadora.",
+        "Dinero en soles.",
+        "Ropa impermeable durante la temporada de lluvias.",
+        "Caramelos o medicamento para el mal de altura."
+      ],
+      "importantNotes": [
+        "La fuente señala que personas en estado de gestación no pueden realizar el tour.",
+        "Si tienes una enfermedad cardíaca, consulta a tu médico e informa al operador.",
+        "Ante condiciones climáticas adversas, la operación queda sujeta a disponibilidad; la fuente indica que no hay reembolso."
+      ],
       "cancellationPolicy": "La fuente indica cancelación o reprogramación hasta 48 horas antes, con una penalidad del 100% del precio del tour.",
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union y MoneyGram.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union y MoneyGram.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente indica confirmación en 48 horas. Las transferencias de Izipay pueden tardar aproximadamente 24 horas (o hasta el lunes después del mediodía si se realizan un viernes por la tarde o durante el fin de semana). Según la nota del operador, los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
@@ -160,9 +284,10 @@
       "heroImage": "assets/img/hero/4.png",
       "heroAlt": "Paisaje de montaña del Valle Sagrado",
       "gallery": [
-        { "src": "assets/img/hero/4.png", "alt": "Paisaje de montaña del Valle Sagrado" },
-        { "src": "assets/img/hero/2.png", "alt": "Arquitectura inca" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Paisaje andino" }
+        {
+          "src": "assets/img/image_box_1/box_4.jpg",
+          "alt": "Paisaje de montaña del Valle Sagrado"
+        }
       ],
       "summary": "Recorre un valle de abundante producción agrícola y comunidades que conservan tradiciones ancestrales. El itinerario visita el conjunto arqueológico y mercado artesanal de Pisac, Urubamba, Ollantaytambo y Chinchero.",
       "notice": "Salidas diarias. Recojo aproximado entre las 07:30 y las 08:00. Se requiere un mínimo de 2 personas. El precio publicado es desde USD 25.00.",
@@ -177,15 +302,56 @@
         "Visita a Chinchero y a sus artesanos textiles; retorno a Cusco entre las 18:30 y las 19:00."
       ],
       "highlights": ["Pisac", "Ollantaytambo", "Chinchero"],
-      "benefitDescriptions": ["Mercado artesanal y conjunto arqueológico", "Pueblo inca viviente y construcciones incas", "Artesanía textil y feria tradicional"],
+      "benefitDescriptions": [
+        "Mercado artesanal y conjunto arqueológico",
+        "Pueblo inca viviente y construcciones incas",
+        "Artesanía textil y feria tradicional"
+      ],
       "locationDescription": "Ruta por el Valle Sagrado de los Incas, desde Pisac hasta Chinchero.",
-      "included": ["Traslados en bus turístico.", "Guiado en grupo por guía profesional en inglés y español."],
-      "notIncluded": ["Ingresos (lleva los boletos antes de iniciar).", "Alimentación.", "Servicios no mencionados.", "Alojamiento en Cusco."],
-      "recommendations": ["Ropa cómoda.", "Casaca cortaviento y lentes de sol.", "Protector solar y sombrero.", "Medicina o artículos de uso personal.", "Cámara fotográfica o filmadora.", "Dinero en soles.", "Ropa impermeable durante la temporada de lluvias.", "Caramelos o medicamento para el mal de altura.", "Presenta tu pasaporte o DNI original."],
-      "importantNotes": ["Se requiere un mínimo de 2 personas.", "Lleva los boletos de ingreso antes de iniciar el tour.", "Puedes conectar el recorrido con un tren desde Ollantaytambo; la fuente recomienda comprar el pasaje después de las 16:00 y coordinarlo previamente.", "La fuente contiene dos condiciones distintas: cancelación sin costo hasta 72 horas antes y cancelación/reprogramación hasta 48 horas antes con penalidad del 100%. Confirma cuál aplica antes de reservar."],
+      "included": [
+        "Traslados en bus turístico.",
+        "Guiado en grupo por guía profesional en inglés y español."
+      ],
+      "notIncluded": [
+        "Ingresos (lleva los boletos antes de iniciar).",
+        "Alimentación.",
+        "Servicios no mencionados.",
+        "Alojamiento en Cusco."
+      ],
+      "recommendations": [
+        "Ropa cómoda.",
+        "Casaca cortaviento y lentes de sol.",
+        "Protector solar y sombrero.",
+        "Medicina o artículos de uso personal.",
+        "Cámara fotográfica o filmadora.",
+        "Dinero en soles.",
+        "Ropa impermeable durante la temporada de lluvias.",
+        "Caramelos o medicamento para el mal de altura.",
+        "Presenta tu pasaporte o DNI original."
+      ],
+      "importantNotes": [
+        "Se requiere un mínimo de 2 personas.",
+        "Lleva los boletos de ingreso antes de iniciar el tour.",
+        "Puedes conectar el recorrido con un tren desde Ollantaytambo; la fuente recomienda comprar el pasaje después de las 16:00 y coordinarlo previamente.",
+        "La fuente contiene dos condiciones distintas: cancelación sin costo hasta 72 horas antes y cancelación/reprogramación hasta 48 horas antes con penalidad del 100%. Confirma cuál aplica antes de reservar."
+      ],
       "cancellationPolicy": "La fuente contiene condiciones contradictorias: una sección indica cancelación o reprogramación sin costo hasta 72 horas antes; otra indica hasta 48 horas antes con penalidad del 100%. Confirma la condición vigente con el operador.",
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union y MoneyGram.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union y MoneyGram.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente indica confirmación en 48 horas. Las transferencias de Izipay pueden tardar aproximadamente 24 horas (o hasta el lunes después del mediodía si se realizan un viernes por la tarde o durante el fin de semana). Según la nota del operador, los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
@@ -209,9 +375,10 @@
       "heroImage": "assets/img/hero/4.png",
       "heroAlt": "Paisaje andino de Maras y Moray",
       "gallery": [
-        { "src": "assets/img/hero/4.png", "alt": "Paisaje andino de Maras y Moray" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Montañas de Cusco" },
-        { "src": "assets/img/hero/2.png", "alt": "Arquitectura histórica" }
+        {
+          "src": "assets/img/image_box_1/box_5.jpg",
+          "alt": "Paisaje andino de Maras y Moray"
+        }
       ],
       "summary": "Visita Maras, pueblo pintoresco situado a 55.7 km de Cusco y a 3,500 m s. n. m., los andenes circulares de Moray y las salineras, formadas por aproximadamente 3,000 pozas.",
       "notice": "Salidas todos los días. Recojo aproximado entre las 07:50 y las 08:15; retorno a Cusco alrededor de las 15:00. El precio publicado es desde USD 25.00.",
@@ -225,16 +392,61 @@
         "Parada en Chinchero para visitar su centro de producción artesanal.",
         "Retorno a Cusco aproximadamente a las 15:00."
       ],
-      "highlights": ["Andenes de Moray", "Salineras de Maras", "Artesanía en Chinchero"],
-      "benefitDescriptions": ["Complejo de experimentación agrícola", "Aproximadamente 3,000 pozas de sal", "Conoce el trabajo de artesanos locales"],
+      "highlights": [
+        "Andenes de Moray",
+        "Salineras de Maras",
+        "Artesanía en Chinchero"
+      ],
+      "benefitDescriptions": [
+        "Complejo de experimentación agrícola",
+        "Aproximadamente 3,000 pozas de sal",
+        "Conoce el trabajo de artesanos locales"
+      ],
       "locationDescription": "Maras, Moray y Chinchero, en el departamento de Cusco.",
-      "included": ["Traslados en bus turístico.", "Ticket de ingreso a las salineras.", "Guía profesional en inglés y español."],
-      "notIncluded": ["Boleto turístico para ingresar a Moray.", "Propinas.", "Seguro de viaje y gastos por inconvenientes.", "Alimentación."],
-      "recommendations": ["Ropa cómoda.", "Casaca cortaviento y lentes de sol.", "Protector solar y sombrero.", "Medicina o artículos de uso personal.", "Cámara fotográfica o filmadora.", "Dinero en soles.", "Ropa impermeable durante la temporada de lluvias.", "Caramelos o medicamento para el mal de altura.", "Presenta tu pasaporte o DNI original y lleva los boletos de ingreso."],
-      "importantNotes": ["Se requiere un mínimo de 2 personas.", "La visita a Moray requiere un boleto turístico que no está incluido.", "Puedes conectar el tour con un tren desde Ollantaytambo; coordina previamente y compra el pasaje después de las 16:00 si deseas enlazar ambos recorridos."],
+      "included": [
+        "Traslados en bus turístico.",
+        "Ticket de ingreso a las salineras.",
+        "Guía profesional en inglés y español."
+      ],
+      "notIncluded": [
+        "Boleto turístico para ingresar a Moray.",
+        "Propinas.",
+        "Seguro de viaje y gastos por inconvenientes.",
+        "Alimentación."
+      ],
+      "recommendations": [
+        "Ropa cómoda.",
+        "Casaca cortaviento y lentes de sol.",
+        "Protector solar y sombrero.",
+        "Medicina o artículos de uso personal.",
+        "Cámara fotográfica o filmadora.",
+        "Dinero en soles.",
+        "Ropa impermeable durante la temporada de lluvias.",
+        "Caramelos o medicamento para el mal de altura.",
+        "Presenta tu pasaporte o DNI original y lleva los boletos de ingreso."
+      ],
+      "importantNotes": [
+        "Se requiere un mínimo de 2 personas.",
+        "La visita a Moray requiere un boleto turístico que no está incluido.",
+        "Puedes conectar el tour con un tren desde Ollantaytambo; coordina previamente y compra el pasaje después de las 16:00 si deseas enlazar ambos recorridos."
+      ],
       "cancellationPolicy": "La fuente indica cancelación o reprogramación hasta 48 horas antes, con una penalidad del 100% del precio del tour.",
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union y MoneyGram.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union y MoneyGram.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente indica confirmación en 48 horas. Las transferencias de Izipay pueden tardar aproximadamente 24 horas (o hasta el lunes después del mediodía si se realizan un viernes por la tarde o durante el fin de semana). Según la nota del operador, los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
@@ -258,9 +470,10 @@
       "heroImage": "assets/img/hero/4.png",
       "heroAlt": "Paisaje andino de Maras y Moray",
       "gallery": [
-        { "src": "assets/img/hero/4.png", "alt": "Paisaje andino de Maras y Moray" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Camino entre montañas" },
-        { "src": "assets/img/hero/3.jpeg", "alt": "Paisaje de los Andes" }
+        {
+          "src": "assets/img/image_box_1/box_6.jpg",
+          "alt": "Paisaje andino de Maras y Moray"
+        }
       ],
       "summary": "Paseo de medio día en cuatrimoto por la ruta de Maras y Moray. El recorrido atraviesa pueblos agrícolas y permite conocer el complejo de Moray y las pozas de sal de Maras.",
       "notice": "Salida aproximada entre las 06:30 y las 07:00; duración hasta aproximadamente las 13:00. Se requiere un mínimo de 1 participante.",
@@ -275,14 +488,54 @@
         "Retorno a Cusco alrededor de las 13:00."
       ],
       "highlights": ["Ruta en cuatrimoto", "Moray", "Pozas de sal"],
-      "benefitDescriptions": ["Equipo e instructor incluidos", "Conoce el complejo agrícola", "Visita las salineras de Maras"],
+      "benefitDescriptions": [
+        "Equipo e instructor incluidos",
+        "Conoce el complejo agrícola",
+        "Visita las salineras de Maras"
+      ],
       "locationDescription": "Ruta de Cusco a Maras y Moray, con paso por Poroy.",
-      "included": ["Traslados y transporte turístico.", "Instructor profesional.", "Cuatrimoto, cascos y guantes.", "Kit de primeros auxilios.", "Guía profesional bilingüe."],
-      "notIncluded": ["Entradas a Maras y Moray.", "Alimentación.", "Seguro de viaje."],
-      "recommendations": ["Usa pantalones largos; no se recomienda llevar jeans.", "Casaca cortaviento y lentes de sol.", "Protector solar y sombrero.", "Medicamentos o artículos de uso personal.", "Cámara fotográfica o filmadora.", "Dinero en soles.", "Documentos oficiales de identificación.", "Si el hotel está fuera del centro de Cusco, coordina un punto de encuentro."],
-      "importantNotes": ["La fuente indica un mínimo de 1 participante.", "Las entradas a Maras y Moray no están incluidas."],
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union y MoneyGram.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "included": [
+        "Traslados y transporte turístico.",
+        "Instructor profesional.",
+        "Cuatrimoto, cascos y guantes.",
+        "Kit de primeros auxilios.",
+        "Guía profesional bilingüe."
+      ],
+      "notIncluded": [
+        "Entradas a Maras y Moray.",
+        "Alimentación.",
+        "Seguro de viaje."
+      ],
+      "recommendations": [
+        "Usa pantalones largos; no se recomienda llevar jeans.",
+        "Casaca cortaviento y lentes de sol.",
+        "Protector solar y sombrero.",
+        "Medicamentos o artículos de uso personal.",
+        "Cámara fotográfica o filmadora.",
+        "Dinero en soles.",
+        "Documentos oficiales de identificación.",
+        "Si el hotel está fuera del centro de Cusco, coordina un punto de encuentro."
+      ],
+      "importantNotes": [
+        "La fuente indica un mínimo de 1 participante.",
+        "Las entradas a Maras y Moray no están incluidas."
+      ],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union y MoneyGram.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente indica confirmación en 48 horas. Las transferencias de Izipay pueden tardar aproximadamente 24 horas (o hasta el lunes después del mediodía si se realizan un viernes por la tarde o durante el fin de semana). Según la nota del operador, los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
@@ -306,9 +559,10 @@
       "heroImage": "assets/img/hero/4.png",
       "heroAlt": "Paisaje andino de Cusco",
       "gallery": [
-        { "src": "assets/img/hero/4.png", "alt": "Paisaje andino de Cusco" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Laguna en un paisaje montañoso" },
-        { "src": "assets/img/hero/3.jpeg", "alt": "Montañas de los Andes" }
+        {
+          "src": "assets/img/image_box_1/box_7.jpg",
+          "alt": "Paisaje andino de Cusco"
+        }
       ],
       "summary": "Visita Apukunaq Tianan, conocido como la Morada de los Dioses, a 3,450 m s. n. m. y aproximadamente 8 km de Cusco, donde se encuentran esculturas talladas en roca. El recorrido continúa hacia la laguna de Huaypo y un paseo en embarcación artesanal.",
       "notice": "La fuente indica que el precio no incluye impuestos y que las reservas deben realizarse con 15 días de anticipación. Ante condiciones climáticas adversas, la operación queda sujeta a disponibilidad y no se ofrece reembolso.",
@@ -319,16 +573,58 @@
         "Visita a las esculturas talladas en roca, entre ellas representaciones de la Pachamama y el puma.",
         "Traslado a la laguna de Huaypo, con tiempo para disfrutar del paisaje y realizar un paseo en embarcación artesanal."
       ],
-      "highlights": ["Apukunaq Tianan", "Laguna de Huaypo", "Paseo en embarcación"],
-      "benefitDescriptions": ["Esculturas de la Pachamama, el puma y otras figuras", "Paisaje natural de la laguna", "Recorrido artesanal por sus aguas"],
+      "highlights": [
+        "Apukunaq Tianan",
+        "Laguna de Huaypo",
+        "Paseo en embarcación"
+      ],
+      "benefitDescriptions": [
+        "Esculturas de la Pachamama, el puma y otras figuras",
+        "Paisaje natural de la laguna",
+        "Recorrido artesanal por sus aguas"
+      ],
       "locationDescription": "Morada de los Dioses, a 8 km de Cusco, y laguna de Huaypo.",
-      "included": ["Transporte privado ida y vuelta en cuatrimoto, según la fuente.", "Almuerzo.", "Guía personalizado durante el tour.", "Ingresos a los lugares de visita."],
-      "notIncluded": ["Desayuno y cena.", "Bebidas y otros consumos.", "Hospedaje u hotel.", "Seguro de viaje."],
-      "recommendations": ["Documento original de identificación.", "Gorra o sombrero y ropa adecuada.", "Kit de medicamentos personales.", "Dinero en efectivo en moneda nacional.", "Cámara fotográfica y cargador."],
-      "importantNotes": ["Los precios no incluyen impuestos.", "Ante condiciones climáticas adversas, la operación queda sujeta a disponibilidad; la fuente indica que no hay reembolso.", "Las reservas deben realizarse con 15 días de anticipación."],
+      "included": [
+        "Transporte privado ida y vuelta en cuatrimoto, según la fuente.",
+        "Almuerzo.",
+        "Guía personalizado durante el tour.",
+        "Ingresos a los lugares de visita."
+      ],
+      "notIncluded": [
+        "Desayuno y cena.",
+        "Bebidas y otros consumos.",
+        "Hospedaje u hotel.",
+        "Seguro de viaje."
+      ],
+      "recommendations": [
+        "Documento original de identificación.",
+        "Gorra o sombrero y ropa adecuada.",
+        "Kit de medicamentos personales.",
+        "Dinero en efectivo en moneda nacional.",
+        "Cámara fotográfica y cargador."
+      ],
+      "importantNotes": [
+        "Los precios no incluyen impuestos.",
+        "Ante condiciones climáticas adversas, la operación queda sujeta a disponibilidad; la fuente indica que no hay reembolso.",
+        "Las reservas deben realizarse con 15 días de anticipación."
+      ],
       "cancellationPolicy": "La fuente indica cancelaciones 7 días antes del tour con una penalidad del 50% del precio.",
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union y MoneyGram.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union y MoneyGram.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente indica confirmación en 48 horas. Las transferencias de Izipay pueden tardar aproximadamente 24 horas (o hasta el lunes después del mediodía si se realizan un viernes por la tarde o durante el fin de semana). Según la nota del operador, los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
@@ -352,9 +648,10 @@
       "heroImage": "assets/img/hero/3.jpeg",
       "heroAlt": "Paisaje de montaña de los Andes",
       "gallery": [
-        { "src": "assets/img/hero/3.jpeg", "alt": "Paisaje de montaña de los Andes" },
-        { "src": "assets/img/hero/1.jpeg", "alt": "Río y entorno natural" },
-        { "src": "assets/img/hero/4.png", "alt": "Paisaje andino" }
+      {
+          "src": "assets/img/image_box_1/box_8.jpg",
+          "alt": "Paisaje andino de montaña de los Andes"
+        }
       ],
       "summary": "Cconoq se encuentra aproximadamente a 120 km de Cusco, junto al río Apurímac. Sus baños termales están rodeados de algarrobos, carrizales y cactus. El área cuenta con servicios de hospedaje, restaurante y bar; la fuente también menciona atractivos de la región de Apurímac.",
       "notice": "Salida diaria a las 05:00 y retorno aproximado entre las 17:00 y las 18:00. Se requiere un mínimo de 2 pasajeros. El precio publicado es desde USD 90.00 y no incluye IGV.",
@@ -367,15 +664,58 @@
         "Llegada a los baños termomedicinales entre las 11:30 y las 12:00; tiempo para disfrutar del baño y descansar.",
         "Retorno a Cusco, con llegada aproximada entre las 17:00 y las 18:00."
       ],
-      "highlights": ["Aguas termales", "Entorno del río Apurímac", "Excursión de día completo"],
-      "benefitDescriptions": ["Tiempo para relajarte en los baños", "Paisajes naturales de Curahuasi", "Transporte y almuerzo incluidos"],
+      "highlights": [
+        "Aguas termales",
+        "Entorno del río Apurímac",
+        "Excursión de día completo"
+      ],
+      "benefitDescriptions": [
+        "Tiempo para relajarte en los baños",
+        "Paisajes naturales de Curahuasi",
+        "Transporte y almuerzo incluidos"
+      ],
       "locationDescription": "Cconoq, a unos 120 km de Cusco y 7 km desde el desvío de Curahuasi.",
-      "included": ["Transporte turístico compartido de ida y vuelta.", "Guía bilingüe en inglés y español.", "Almuerzo.", "Ticket de ingreso a los baños."],
-      "notIncluded": ["Desayuno y cena.", "Bebidas y otros consumos.", "Hospedaje u hotel.", "Seguro de viaje.", "Traslados no especificados."],
-      "recommendations": ["Ropa de baño ligera.", "Sandalias y ropa abrigadora.", "Agua mineral.", "Protector solar.", "Gafas de sol."],
-      "importantNotes": ["El precio no incluye IGV.", "Se requiere un mínimo de 2 pasajeros.", "La fuente no especifica una política de cancelación para este tour."],
-      "bookingInstructions": ["Verifica la disponibilidad llenando el formulario de consulta.", "Selecciona la fecha de salida en el calendario y el número de personas.", "Haz clic en «Añadir a la compra».", "Paga en línea el prepago o el precio total.", "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."],
-      "paymentMethods": ["Efectivo en oficina.", "Transferencia bancaria.", "Western Union.", "Billeteras digitales Yape y Plin.", "PayPal (con recargo por transacción).", "Tarjetas Mastercard y Visa.", "IZI PAY (puede aplicar un recargo)."],
+      "included": [
+        "Transporte turístico compartido de ida y vuelta.",
+        "Guía bilingüe en inglés y español.",
+        "Almuerzo.",
+        "Ticket de ingreso a los baños."
+      ],
+      "notIncluded": [
+        "Desayuno y cena.",
+        "Bebidas y otros consumos.",
+        "Hospedaje u hotel.",
+        "Seguro de viaje.",
+        "Traslados no especificados."
+      ],
+      "recommendations": [
+        "Ropa de baño ligera.",
+        "Sandalias y ropa abrigadora.",
+        "Agua mineral.",
+        "Protector solar.",
+        "Gafas de sol."
+      ],
+      "importantNotes": [
+        "El precio no incluye IGV.",
+        "Se requiere un mínimo de 2 pasajeros.",
+        "La fuente no especifica una política de cancelación para este tour."
+      ],
+      "bookingInstructions": [
+        "Verifica la disponibilidad llenando el formulario de consulta.",
+        "Selecciona la fecha de salida en el calendario y el número de personas.",
+        "Haz clic en «Añadir a la compra».",
+        "Paga en línea el prepago o el precio total.",
+        "Consulta con tu agente de viajes si deseas pagar el paquete en cuotas."
+      ],
+      "paymentMethods": [
+        "Efectivo en oficina.",
+        "Transferencia bancaria.",
+        "Western Union.",
+        "Billeteras digitales Yape y Plin.",
+        "PayPal (con recargo por transacción).",
+        "Tarjetas Mastercard y Visa.",
+        "IZI PAY (puede aplicar un recargo)."
+      ],
       "paymentNote": "La fuente también menciona pagos con Visa, Mastercard, PayPal, Western Union, Yape y Plin, y confirmación inmediata. Las transferencias de Izipay pueden tardar aproximadamente 24 horas; los comprobantes se emiten cuando el dinero está bancarizado o el pago se realizó en efectivo.",
       "contact": {
         "title": "¿Tienes alguna consulta?",
