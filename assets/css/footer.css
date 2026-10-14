@@ -29,13 +29,11 @@
   position: absolute;
   z-index: 0;
   right: 0;
-  bottom: 16px;
+  bottom: 8px;
   left: 0;
-  height: 22px;
+  height: 26px;
   background: url("../img/footer/linear_footer.png") center / auto 16px repeat-x;
-  filter: hue-rotate(145deg) saturate(0.85);
   content: "";
-  pointer-events: none;
 }
 
 .kuntur-footer__inner {
